@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/coordinatorLayout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.google.android.material.appbar.AppBarLayout android:id="@id/appBarLayout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <androidx.appcompat.widget.Toolbar android:id="@id/toolbar_view" android:background="@color/colorPrimaryDark" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="?actionBarSize" app:elevation="4.0dip" app:popupTheme="@style/ToolbarMenuStyle">
+                <com.catool.android.views.CatoolTextView android:textSize="18.0sp" android:textColor="#ffffffff" android:layout_gravity="center|right" android:id="@id/pointsTextView" android:paddingRight="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/roboto_medium" />
+            </androidx.appcompat.widget.Toolbar>
+            <com.google.android.material.tabs.TabLayout android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" android:id="@id/tabLayout" android:background="?colorPrimaryDark" android:layout_width="fill_parent" android:layout_height="wrap_content" app:tabGravity="fill" app:tabIndicatorColor="?colorAccent" app:tabIndicatorHeight="3.0dip" app:tabMode="scrollable" app:tabSelectedTextColor="?colorAccent" app:tabTextColor="#ffffffff" />
+        </com.google.android.material.appbar.AppBarLayout>
+        <FrameLayout android:id="@id/fragment_container" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</LinearLayout>

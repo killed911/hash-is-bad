@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="act_gaining_crystal">@drawable/ic_crystal_white_328x280dp_xlarge</item>
+</resources>

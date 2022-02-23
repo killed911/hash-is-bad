@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="dimen" name="abc_dialog_fixed_width_major">50.0%</item>
+    <item type="dimen" name="abc_dialog_fixed_width_minor">70.00001%</item>
+    <item type="dimen" name="abc_dialog_min_width_major">45.000004%</item>
+    <item type="dimen" name="abc_dialog_min_width_minor">72.0%</item>
+    <dimen name="act_gaining_big_btn_size">520.0dip</dimen>
+    <dimen name="act_gaining_counter_block_separator_margin_bottom">42.0dip</dimen>
+    <dimen name="act_gaining_counter_block_separator_margin_end">42.0dip</dimen>
+    <dimen name="act_gaining_counter_block_separator_margin_start">42.0dip</dimen>
+    <dimen name="act_gaining_counter_block_separator_margin_top">42.0dip</dimen>
+    <dimen name="act_gaining_counter_cell_margin_top">48.0dip</dimen>
+    <dimen name="act_gaining_counter_cell_width">172.0dip</dimen>
+    <dimen name="act_gaining_counter_delta_margin_end">36.0dip</dimen>
+    <dimen name="act_gaining_counter_delta_margin_start">36.0dip</dimen>
+    <dimen name="act_gaining_counter_delta_text_size">24.0sp</dimen>
+    <dimen name="act_gaining_counter_title_margin_bottom">8.0dip</dimen>
+    <dimen name="act_gaining_counter_title_margin_end">36.0dip</dimen>
+    <dimen name="act_gaining_counter_title_margin_start">36.0dip</dimen>
+    <dimen name="act_gaining_counter_title_text_size">18.0sp</dimen>
+    <dimen name="act_gaining_counter_value_margin_bottom">2.0dip</dimen>
+    <dimen name="act_gaining_counter_value_margin_end">36.0dip</dimen>
+    <dimen name="act_gaining_counter_value_margin_start">36.0dip</dimen>
+    <dimen name="act_gaining_counter_value_padding_bottom">4.0dip</dimen>
+    <dimen name="act_gaining_counter_value_text_size">36.0sp</dimen>
+    <dimen name="act_gaining_improve_speed_btn_height">48.0dip</dimen>
+    <dimen name="act_gaining_improve_speed_btn_text_size">24.0sp</dimen>
+    <dimen name="act_gaining_improve_speed_margin_bottom">16.0dip</dimen>
+    <dimen name="act_gaining_improve_speed_margin_end">36.0dip</dimen>
+    <dimen name="act_gaining_improve_speed_margin_start">36.0dip</dimen>
+    <dimen name="act_gaining_improve_speed_margin_top">16.0dip</dimen>
+    <dimen name="act_gaining_improve_speed_padding_end">36.0dip</dimen>
+    <dimen name="act_gaining_improve_speed_padding_start">36.0dip</dimen>
+    <dimen name="act_gaining_slide_btn_dot_radius">4.0dip</dimen>
+    <dimen name="act_gaining_slide_btn_height">180.0dip</dimen>
+    <dimen name="act_gaining_slide_btn_width">28.0dip</dimen>
+    <dimen name="act_gaining_speed_title_padding_bottom">8.0dip</dimen>
+    <dimen name="act_gaining_speed_title_padding_top">8.0dip</dimen>
+    <dimen name="act_gaining_speed_title_text_size">24.0sp</dimen>
+    <dimen name="act_gaining_speed_value_text_size">42.0sp</dimen>
+    <dimen name="act_gaining_switch_icon_padding">8.0dip</dimen>
+    <dimen name="act_gaining_switch_padding">4.0dip</dimen>
+    <dimen name="act_gaining_switch_size">58.0dip</dimen>
+    <dimen name="act_gaining_toggle_margin_bottom">36.0dip</dimen>
+    <dimen name="act_gaining_toggle_margin_end">12.0dip</dimen>
+    <dimen name="act_gaining_toggle_margin_start">12.0dip</dimen>
+    <dimen name="text_size_14">18.0sp</dimen>
+    <dimen name="text_size_16">22.0sp</dimen>
+</resources>

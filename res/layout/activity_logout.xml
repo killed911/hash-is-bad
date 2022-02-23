@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:orientation="vertical" android:id="@id/coordinator_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:background="?colorPrimaryDark" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.appcompat.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/img_logout_logo" />
+        <com.catool.android.views.CatoolTextView android:textSize="14.0sp" android:textColor="#ffffffff" android:gravity="center" android:layout_width="300.0dip" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:text="@string/activity_cleaning_description" app:text_view_font="@string/roboto_regular" />
+        <me.zhanghai.android.materialprogressbar.MaterialProgressBar android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginTop="16.0dip" />
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

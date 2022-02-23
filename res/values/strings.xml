@@ -1,0 +1,786 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Navigate home</string>
+    <string name="abc_action_bar_up_description">Navigate up</string>
+    <string name="abc_action_menu_overflow_description">More options</string>
+    <string name="abc_action_mode_done">Done</string>
+    <string name="abc_activity_chooser_view_see_all">See all</string>
+    <string name="abc_activitychooserview_choose_application">Choose an app</string>
+    <string name="abc_capital_off">OFF</string>
+    <string name="abc_capital_on">ON</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">delete</string>
+    <string name="abc_menu_enter_shortcut_label">enter</string>
+    <string name="abc_menu_function_shortcut_label">Function+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">space</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Menu+</string>
+    <string name="abc_search_hint">Search…</string>
+    <string name="abc_searchview_description_clear">Clear query</string>
+    <string name="abc_searchview_description_query">Search query</string>
+    <string name="abc_searchview_description_search">Search</string>
+    <string name="abc_searchview_description_submit">Submit query</string>
+    <string name="abc_searchview_description_voice">Voice search</string>
+    <string name="abc_shareactionprovider_share_with">Share with</string>
+    <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
+    <string name="abc_toolbar_collapse_description">Collapse</string>
+    <string name="account_rating_calculate_action">Calculate rating</string>
+    <string name="account_rating_calculate_action_progress">@string/please_wait</string>
+    <string name="account_rating_not_loaded_message">Your rating is not loaded, swipe down to refresh :)</string>
+    <string name="account_rating_postfix_pattern">/[amount] stars</string>
+    <string name="account_rating_rewards_title">Rewards</string>
+    <string name="account_rating_stars_for_activity_title">Stars for activity</string>
+    <string name="account_rating_stars_for_profile_title">Stars for profile</string>
+    <string name="account_rating_title">"Account
+rating"</string>
+    <string name="act_app_hacked_cloned_description">There is no need in cloning the application. You can try \"Bundle\" to use multiple accounts instead [emoji:WINKING_FACE]</string>
+    <string name="act_app_hacked_cloned_title">Oops… why did you do this :(</string>
+    <string name="act_app_hacked_compromised_description">"Your actions violate the application policy. You mom won't like it!"</string>
+    <string name="act_app_hacked_compromised_title">Oops… you are deceiver!</string>
+    <string name="act_app_hacked_toolbar_title">We have caught you!</string>
+    <string name="act_bundle_intro_action_done">Create</string>
+    <string name="act_bundle_intro_slide_0_description">Use multiple accounts and switch between them in one click</string>
+    <string name="act_bundle_intro_slide_0_title">Accounts bundle</string>
+    <string name="act_bundle_intro_slide_1_description">Gain crystals using additional account and spend crystals on your primary one</string>
+    <string name="act_bundle_intro_slide_1_title">Be clever</string>
+    <string name="act_bundle_intro_slide_2_description">Transfer crystals between accounts in the same bundle with minimal commission</string>
+    <string name="act_bundle_intro_slide_2_title">Save more</string>
+    <string name="act_bundle_intro_slide_3_description">Create accounts bundle and become the best!</string>
+    <string name="act_bundle_intro_slide_3_title">Start right now</string>
+    <string name="act_comments_stub_description">This feature is being developed. We will notify you as soon as possible, stay tuned [emoji:WINKING_FACE]</string>
+    <string name="act_comments_stub_title">Very soon!</string>
+    <string name="act_comments_toolbar_title">Comments</string>
+    <string name="act_dev_tools_toolbar_title">Dev-tools</string>
+    <string name="act_extra_crystals_tab_0">Extra tasks</string>
+    <string name="act_extra_crystals_tab_1">Gift code</string>
+    <string name="act_extra_crystals_toolbar_title">Karma &amp; Crystals</string>
+    <string name="act_extra_tasks_toolbar_title">Extra-tasks</string>
+    <string name="act_gaining_counters_button_improve">Boost</string>
+    <string name="act_gaining_counters_button_prolong">Prolong</string>
+    <string name="act_gaining_counters_title_crystals">Crystals</string>
+    <string name="act_gaining_counters_title_energy">Karma</string>
+    <string name="act_gaining_counters_title_speed">Speed</string>
+    <string name="act_gaining_menu_improve_background_work">Allow background work</string>
+    <string name="act_gaining_menu_item_write_us">@string/write_us</string>
+    <string name="act_gaining_menu_tutorial">How to use?</string>
+    <string name="act_gaining_menu_white_list">Open white list</string>
+    <string name="act_gaining_started_msg">Earning crystals has been launched. The app is working in background!</string>
+    <string name="act_gaining_tutorial_description_1">Subscribe to other users for crystals award</string>
+    <string name="act_gaining_tutorial_description_2">Leave comments for crystals award</string>
+    <string name="act_gaining_tutorial_description_3">Show detailed info about gaining crystals status (may increase battery usage)</string>
+    <string name="act_gaining_tutorial_description_4">Repeat this tutorial. You might have skipped it anyway… [emoji:PENSIVE_FACE]</string>
+    <string name="act_gaining_tutorial_description_5">Initiate work. After this you can go away from the app [emoji:WINKING_FACE][emoji:WINKING_FACE]</string>
+    <string name="act_gaining_tutorial_title_1">Let me… subscribe</string>
+    <string name="act_gaining_tutorial_title_2">Let me… comment</string>
+    <string name="act_gaining_tutorial_title_3">Notification</string>
+    <string name="act_gaining_tutorial_title_4">Show hints</string>
+    <string name="act_gaining_tutorial_title_5">Get crystals</string>
+    <string name="act_goods_tab_0">Crystals</string>
+    <string name="act_goods_tab_1">Premium</string>
+    <string name="act_goods_tab_2">Slots</string>
+    <string name="act_goods_toolbar_title">Shop</string>
+    <string name="act_main_drawer_profiles_item_manage_accounts">Manage accounts</string>
+    <string name="act_manage_accounts_add_account_title">Add</string>
+    <string name="act_manage_accounts_dlg_unlinked_message">Detached, now you can attach new account ;)</string>
+    <string name="act_manage_accounts_dlg_unlinked_title">Done</string>
+    <string name="act_manage_accounts_item_unauthorized_snackbar_action">Login</string>
+    <string name="act_manage_accounts_item_unauthorized_snackbar_title">Not logged in!</string>
+    <string name="act_manage_accounts_menu_item_logout_all">Logout all accounts</string>
+    <string name="act_manage_accounts_menu_item_reauth_all">Reauthenticate all accounts</string>
+    <string name="act_manage_accounts_toolbar_title">Accounts bundle</string>
+    <string name="act_products_msg_bought">Bought!</string>
+    <string name="act_products_msg_gotten">Already bought!</string>
+    <string name="act_reauth_button">Next</string>
+    <string name="act_reauth_dialog_msg_no_reauthenticated_accounts">You need to login via WEB-interface!</string>
+    <string name="act_reauth_dialog_msg_not_all_accounts_reauthenticated">Not all accounts were reauthenticated!</string>
+    <string name="act_reauth_title">Restoring authorization data…</string>
+    <string name="act_settings_toolbar_title">Settings</string>
+    <string name="act_terms_of_service_toolbar_title">Terms Of Service</string>
+    <string name="act_transfer_pattern_fee_title">Crystals, commission -</string>
+    <string name="act_web_title">Browser</string>
+    <string name="action_up">Up</string>
+    <string name="activity_cleaning_description">Clearing cache and authentication data…</string>
+    <string name="activity_logout_back_pressed_attention">Please wait for completion!</string>
+    <string name="all_required_fields_should_be_filled">All required fields should be filled!</string>
+    <string name="app_intro_done_button">DONE</string>
+    <string name="app_intro_skip_button">SKIP</string>
+    <string name="app_intro_slide_0_description">Promote your page automatically</string>
+    <string name="app_intro_slide_0_title">Ready to popularity</string>
+    <string name="app_intro_slide_1_description">Get more fans and favorites each day</string>
+    <string name="app_intro_slide_1_title">Become famous</string>
+    <string name="app_intro_slide_2_description">Enjoy your popularity and increase your fame</string>
+    <string name="app_intro_slide_2_title">Enjoy &amp; Shine</string>
+    <string name="app_name">@string/application_name</string>
+    <string name="app_terms_of_service_action">I accept the Terms Of Service</string>
+    <string name="app_terms_of_service_description">" 1. By using the present application "<b>\"Igotop+\"</b>" (next - the Application), you get an opportunity to:
+  1.1. use the Application services;
+  1.2. buy electronic goods and/or services for further use within the Application;
+  1.3. get help from technical support of the Application if you have any problems;
+  1.4. get help if you have any problems from technical support Applications;
+
+ 2. The activities of this Application is aimed solely at ensuring the process of interaction between all interested parties (next - Users) for gaining points within the Application.
+
+ 3. The Application gives Users a number of the above functions, and makes no warranties of the speed and/or reliability of their execution.
+
+ 4. Using the Application by Users means, that the User agrees to these terms and conditions of the current User Agreement, and all amendments and/or additions.
+
+ 5. The Application reserves the right at its discretion to carry out any change and/or supplement of this User Agreement at any time without prior and/or subsequent notification to the User. The new version of the User Agreement comes into force from the moment of its placement in the Application.
+
+ 6. In case of disagreement of the User with any of the positions of the User Agreement, the User is not entitled to use the application. In case, if any changes were made by the Application to the User Agreement, with which the User does not agree, the latter is obliged to stop using the Application.
+
+ 7. This User Agreement is mandatory for all Users of the application.
+
+ 8. The creators of the Application (next - "<b>Igotop</b>") do NOT guarantee that the Application services will always be:
+  8.1. corresponding to the User's expectations;
+  8.2. uninterrupted;
+  8.3. unmistakable;
+  8.4. available to the User or operate stably;
+  8.5. guaranteed to provide fast data transfer speed or/and the Application speed, as well as ensured of the absence of typographical errors;
+
+ 9. For its part, "<b>Igotop</b>" will make every possible effort to ensure the running of the above-mentioned properties of the application.
+
+ 10. "<b>Igotop</b>" is not liable, including, but not limited to, for any material or moral damages caused by the use of or inability to use, the user application, as well as for any consequences of unauthorized/unlawful third-party access to the User's authorization data (login, password), a computer or personal data of the latter.
+
+ 11. The Application is not a client of the Instagram. "<b>Igotop</b>" - separate, unofficial group of developers that is not part of the Instagram, not cooperating with the Instagram and is not carrying Responsibility for the policies and actions of the Instagram.
+
+ 12. Acceptance in accordance with the current legislation of any position of this User Agreement invalid or not enforceable does not entail invalidation of inapplicability of other positions of the User Agreement.
+
+ 13. In order to obtain an objective and consistent information in the Application, the User agrees to provide true, precise and complete information about himself as prompted in the feedback form and keep this information up to date.
+
+ 14. "<b>Igotop</b>" warn that in case of extremely automated processing of personal data they are not responsible for the accuracy and reliability of personal data entered by the User, for the User decisions and the legal consequences, arising in connection with those decisions.
+
+ 15. "<b>Igotop</b>" reserves the right to terminate the User's access to the services of the Application completely or partially, at any time, without explaining the reason.
+
+ 16. "<b>Igotop</b>" does not carry out any responsibility for the User's actions in the Application and for their consequences. "</string>
+    <string name="app_terms_of_service_title">Terms Of Service</string>
+    <string name="app_terms_of_service_warning">First of all you must accept the Terms Of Service!</string>
+    <string name="appbar_scrolling_view_behavior">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="application_name">Hiketop+</string>
+    <string name="bottom_sheet_behavior">com.google.android.material.bottomsheet.BottomSheetBehavior</string>
+    <string name="cancel">Cancel</string>
+    <string name="character_counter_content_description">Character limit exceeded %1$d of %2$d</string>
+    <string name="character_counter_pattern">%1$d / %2$d</string>
+    <string name="com.crashlytics.android.build_id">5aec2685-b7c8-4625-9114-f89c9167fe1c</string>
+    <string name="common_google_play_services_enable_button">Enable</string>
+    <string name="common_google_play_services_enable_text">"%1$s won't work unless you enable Google Play services."</string>
+    <string name="common_google_play_services_enable_title">Enable Google Play services</string>
+    <string name="common_google_play_services_install_button">Install</string>
+    <string name="common_google_play_services_install_text">"%1$s won't run without Google Play services, which are missing from your device."</string>
+    <string name="common_google_play_services_install_title">Get Google Play services</string>
+    <string name="common_google_play_services_notification_channel_name">Google Play services availability</string>
+    <string name="common_google_play_services_notification_ticker">Google Play services error</string>
+    <string name="common_google_play_services_unknown_issue">%1$s is having trouble with Google Play services. Please try again.</string>
+    <string name="common_google_play_services_unsupported_text">"%1$s won't run without Google Play services, which are not supported by your device."</string>
+    <string name="common_google_play_services_update_button">Update</string>
+    <string name="common_google_play_services_update_text">"%1$s won't run unless you update Google Play services."</string>
+    <string name="common_google_play_services_update_title">Update Google Play services</string>
+    <string name="common_google_play_services_updating_text">"%1$s won't run without Google Play services, which are currently updating."</string>
+    <string name="common_google_play_services_wear_update_text">New version of Google Play services needed. It will update itself shortly.</string>
+    <string name="common_open_on_phone">Open on phone</string>
+    <string name="common_signin_button_text">Sign in</string>
+    <string name="common_signin_button_text_long">Sign in with Google</string>
+    <string name="cope">Copy</string>
+    <string name="copied">Copied!</string>
+    <string name="crash">Crash</string>
+    <string name="creating">Creation…</string>
+    <string name="crystals">Crystals</string>
+    <string name="date_format_month_day">EEEE, MMMM d</string>
+    <string name="date_format_year_month_day">EEEE, MMMM d yyyy</string>
+    <string name="days">Days</string>
+    <string name="default_web_client_id">742343457928-4td0pdtbtfra1v7ou0uc21nh7e8bfaeh.apps.googleusercontent.com</string>
+    <string name="define_appintro" />
+    <string name="delete">Delete</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_please_wait">Executing…</string>
+    <string name="dialog_title_attention">Message!</string>
+    <string name="dlg_authentication_help_message">"\u0009Authentication is being processed via inner browser, so we don't store your login or password.&lt;br />&lt;br />\u0009In order to login the app, click "<b>\"I AM IN, NEXT\"</b>.&lt;br />&lt;br />\u0009If you face any problems, please, contact us.</string>
+    <string name="dlg_authentication_help_title">How to login?</string>
+    <string name="dlg_follow_order_other_user_attention">Orders for other users is more expensive, for your own accounts use \"accounts bundle\" [emoji:WINKING_FACE]</string>
+    <string name="dlg_follow_order_snackbar_action">Open</string>
+    <string name="dlg_follow_order_snackbar_text_created">Order created!</string>
+    <string name="dlg_gift_code_reward_crystals">Crystals</string>
+    <string name="dlg_gift_code_reward_karma">Karma</string>
+    <string name="dlg_gift_code_reward_premium">Premium</string>
+    <string name="dlg_gift_code_reward_premium_pattern">[amount]d</string>
+    <string name="dlg_gift_code_reward_slots">Slots</string>
+    <string name="dlg_gift_code_reward_subtitle">"Thank you for using
+our application[emoji:FACE_THROWING_KISS]"</string>
+    <string name="dlg_gift_code_reward_title">Gotten gift!</string>
+    <string name="dlg_instagram_post_action_get_likes">Likes for [amount] [icon]</string>
+    <string name="dlg_instagram_post_action_get_views">Views for [amount] [icon]</string>
+    <string name="dlg_instagram_post_action_open_orders">Open</string>
+    <string name="dlg_instagram_post_create_order_btn">GET FOR [price] [icon]</string>
+    <string name="dlg_instagram_post_likes_order_created_msg">Order created!</string>
+    <string name="dlg_instagram_post_transfers_advice_title">The orders for other users are more expensive, use [link]crystals transfer[/link].</string>
+    <string name="dlg_instagram_post_views_order_created_msg">Order created!</string>
+    <string name="dlg_instagram_user_followers_title">Followers</string>
+    <string name="dlg_instagram_user_following_title">Following</string>
+    <string name="dlg_instagram_user_posts_title">Posts</string>
+    <string name="dlg_need_add_app_to_whitelist_message">\u0009Crystals gaining process may be interrupted when your device \"sleeps\". To avoid it you should add app to white list.</string>
+    <string name="dlg_need_add_app_to_whitelist_negative_button">"I don't want"</string>
+    <string name="dlg_need_add_app_to_whitelist_positive_button">Next</string>
+    <string name="dlg_need_add_app_to_whitelist_title">Let me work in background</string>
+    <string name="dlg_search_deceivers_direction_title">Check followers in order</string>
+    <string name="dlg_stories_order_action_btn">Story views for %1$d [icon]</string>
+    <string name="dlg_stories_order_msg_created">Stories order created!</string>
+    <string name="dlg_stories_order_stories_count_title">Stories count:</string>
+    <string name="dlg_stories_order_switch_all_title">All (%1$d)</string>
+    <string name="dlg_stories_order_switch_first_title">First</string>
+    <string name="dlg_stories_order_switch_max_title">Max (%1$d)</string>
+    <string name="dlg_stories_order_transfers_advice_title">The orders for other users may be more expensive, use [link]crystals transfer[/link].</string>
+    <string name="dlg_title_help">Help</string>
+    <string name="dlg_transfers_help_message">"\u0009You can transfer crystals to user which logged to the app at least one time. In order to transfer crystals, enter username and crystals amount.
+
+\u0009Receiver pays the fee.
+
+\u0009Pay attention: transfers between users in the same \"Bundle\" are the most efficient ."</string>
+    <string name="dlg_transfers_help_title">Crystals transfer</string>
+    <string name="done">Done</string>
+    <string name="download_photo_started">Downloading photo started…</string>
+    <string name="download_video_started">Downloading video started…</string>
+    <string name="drawer_menu_item_contact_mail">Write us</string>
+    <string name="drawer_menu_item_contact_telegram">Telegram (support)</string>
+    <string name="drawer_menu_item_dev_settings">Dev-tools</string>
+    <string name="drawer_menu_item_extra_crystals">Gift-code</string>
+    <string name="drawer_menu_item_help">FAQ</string>
+    <string name="drawer_menu_item_logs">Logs</string>
+    <string name="drawer_menu_item_partnership">Partnership</string>
+    <string name="drawer_menu_item_punish_deceivers">Punish unfollowers</string>
+    <string name="drawer_menu_item_referral_system">Referral system</string>
+    <string name="drawer_menu_item_settings">Settings</string>
+    <string name="drawer_menu_item_shop">Market</string>
+    <string name="drawer_menu_item_transfers">Crystals transfers</string>
+    <string name="drawer_menu_terms_of_service_title">"By using this program, you accept
+"<u>Terms of service</u></string>
+    <string name="drawer_panel_btn_karma_minus_subtitle">Need to restore</string>
+    <string name="drawer_panel_btn_karma_plus_subtitle">Exchange to crystals</string>
+    <string name="drawer_panel_btn_premium_off_subtitle">Get more</string>
+    <string name="drawer_panel_btn_premium_on_subtitle">Click to prolong</string>
+    <string name="empty" />
+    <string name="expand_button_title">Advanced</string>
+    <string name="fab_transformation_scrim_behavior">com.google.android.material.transformation.FabTransformationScrimBehavior</string>
+    <string name="fab_transformation_sheet_behavior">com.google.android.material.transformation.FabTransformationSheetBehavior</string>
+    <string name="failed_to_get_more">Failed to load more.</string>
+    <string name="failed_to_load">Failed to load.</string>
+    <string name="failed_to_refresh">Failed to refresh.</string>
+    <string name="faq">Help</string>
+    <string name="files">Files</string>
+    <string name="files_toolbar_menu_item_delete_all">Delete all</string>
+    <string name="files_toolbar_menu_item_delete_all_latest_one_day">Delete latest one day</string>
+    <string name="files_toolbar_menu_item_delete_all_latest_one_week">Delete latest one week</string>
+    <string name="firebase_database_url">https://hiketop-944ad.firebaseio.com</string>
+    <string name="frf_attach_account_to_bundle_action_accept">OK</string>
+    <string name="frf_attach_account_to_bundle_action_decline">Cancel</string>
+    <string name="frf_attach_account_to_bundle_message">This account will be added to the bundle. You can change it any time.</string>
+    <string name="frf_settings_pref_category_title_other">Other</string>
+    <string name="frg_available_referrals_action_send">Send</string>
+    <string name="frg_available_referrals_added_at_pattern">Invited in [time]</string>
+    <string name="frg_available_referrals_gained_pattern"><b>[percent]%</b> of [amount]</string>
+    <string name="frg_available_referrals_item_left_days_pattern">Remains [amount] days</string>
+    <string name="frg_available_referrals_item_profit_pattern">[amount]</string>
+    <string name="frg_available_referrals_section_header_today">For today</string>
+    <string name="frg_available_referrals_toolbar_title">Referrals</string>
+    <string name="frg_bundle_accounts_buy_slot_for_crystals_title">Take for</string>
+    <string name="frg_bundle_accounts_buy_slot_for_money_title">Buy for</string>
+    <string name="frg_bundle_accounts_hint">Not enough slots (places) for additional accounts, but you can purchase more [emoji:WINKING_FACE]</string>
+    <string name="frg_bundle_accounts_item_option_forget">Logout</string>
+    <string name="frg_bundle_accounts_item_option_open">Open in Instagram</string>
+    <string name="frg_bundle_accounts_item_option_unlink">Detach</string>
+    <string name="frg_bundle_accounts_slot_unauthorized_title_many">"slots
+available"</string>
+    <string name="frg_bundle_accounts_slot_unauthorized_title_one_0">one</string>
+    <string name="frg_bundle_accounts_slot_unauthorized_title_one_1">"slot
+available"</string>
+    <string name="frg_bundle_dialog_msg_buy_slot_for_crystals">Confirm purchase for [amount][icon]</string>
+    <string name="frg_bundle_snackbar_msg_slot_bought">Success!</string>
+    <string name="frg_crystals_goods_action_confirm">Get</string>
+    <string name="frg_dashboard_card_extra_tasks_summary">"Extra
+earning"</string>
+    <string name="frg_dashboard_card_extra_tasks_summary_full">Complete simple offers (install apps, watch videos etc.) to gain crystals and karma :)</string>
+    <string name="frg_dashboard_card_extra_tasks_title">Tasks</string>
+    <string name="frg_dashboard_card_likes_tasks_summary">"Manual earning (best way)
+Like posts and get rewards."</string>
+    <string name="frg_dashboard_card_likes_tasks_summary_full">Manual earning (best way), like posts and get rewards.</string>
+    <string name="frg_dashboard_card_likes_tasks_title">Likes</string>
+    <string name="frg_dashboard_card_views_tasks_summary">"Manual
+tasks"</string>
+    <string name="frg_dashboard_card_views_tasks_summary_full">"Watch other users' videos and get rewards."</string>
+    <string name="frg_dashboard_card_views_tasks_title">Views</string>
+    <string name="frg_dashboard_daily_bonus_active_subtitle">Buy <b>Premium</b> and boost your daily bonus!</string>
+    <string name="frg_dashboard_daily_bonus_active_title">Get it!</string>
+    <string name="frg_dashboard_daily_bonus_gotten_msg">Received [crystals] [crystals_icon] and [karma] [karma_icon] :))</string>
+    <string name="frg_dashboard_daily_bonus_passive_subtitle">Buy <b>Premium</b> and get more!</string>
+    <string name="frg_dashboard_daily_bonus_passive_title">Till next</string>
+    <string name="frg_dashboard_daily_bonus_progress_title">Receiving…</string>
+    <string name="frg_dashboard_gift_code_hint">Enter here</string>
+    <string name="frg_dashboard_gift_code_info_body">"It's a ticket you can exchange for crystals. You can find a gift code only in our official media. More details in Telegram channel (links in menu)."</string>
+    <string name="frg_dashboard_gift_code_info_title">What is gift code?</string>
+    <string name="frg_dashboard_gift_code_reward_msg">Received [crystals] [crystals_icon] :))</string>
+    <string name="frg_dashboard_gift_code_title">"Gift
+Code"</string>
+    <string name="frg_dashboard_news_stub_title">No news yet [emoji:THINKING_FACE]</string>
+    <string name="frg_dashboard_private_message_today_time_pattern">Today at [time]</string>
+    <string name="frg_dashboard_telegram_bot_link_action">GET +[amount] [icon]</string>
+    <string name="frg_dashboard_telegram_bot_link_title">Link your Telegram account</string>
+    <string name="frg_dashboard_telegram_bot_linked_action">Open</string>
+    <string name="frg_dashboard_telegram_bot_linked_title">Earn more with our Telegram bot</string>
+    <string name="frg_dashboard_title">Dashboard</string>
+    <string name="frg_energy_statistics_header_title_0">Action</string>
+    <string name="frg_energy_statistics_header_title_1">Result</string>
+    <string name="frg_energy_statistics_item_total">Total</string>
+    <string name="frg_energy_statistics_no_items_action">Start</string>
+    <string name="frg_energy_statistics_no_items_msg">No karma changes, start gain it with crystals ;))</string>
+    <string name="frg_energy_statistics_subtitle">For the last week: %s karma</string>
+    <string name="frg_extra_tasks_reward_msg">Gotten [amount] [icon]!</string>
+    <string name="frg_extra_tasks_screen_hint">"It may take some time for crystals and karma to be transferred to your account. Carefully read tasks' description and swipe down to update your crystals amount after completing task."</string>
+    <string name="frg_extra_tasks_tapjoy_action_begin">Begin</string>
+    <string name="frg_extra_tasks_tapjoy_action_loading">Loading…</string>
+    <string name="frg_extra_tasks_tapjoy_crystals_description">Complete simple tasks and earn additional crystals</string>
+    <string name="frg_extra_tasks_tapjoy_crystals_title">Get more crystals for tasks!</string>
+    <string name="frg_extra_tasks_tapjoy_karma_description">Restore karma faster or earn karma to exchange it on crystals</string>
+    <string name="frg_extra_tasks_tapjoy_karma_title">Get karma for tasks!</string>
+    <string name="frg_files_stub">No log files…</string>
+    <string name="frg_files_toolbar_title">Logs (external storage)</string>
+    <string name="frg_gift_code_edt_hint">Enter here</string>
+    <string name="frg_gift_code_links_header">Our social media</string>
+    <string name="frg_gift_code_summary">"You can receive gift codes only in our social media. We publish gift codes on holidays, give them as prises in different contests or as a reward for active users. Follow our social networks and you won't miss them!"</string>
+    <string name="frg_gift_code_title">Exchange gift codes for crystals, karma, slots…</string>
+    <string name="frg_gift_code_toolbar_title">Gift code</string>
+    <string name="frg_gift_code_use_action">Use the code</string>
+    <string name="frg_karma_days_header_control">Manage</string>
+    <string name="frg_karma_days_header_growth">Growth</string>
+    <string name="frg_karma_days_header_type">Type</string>
+    <string name="frg_karma_days_stub_action">Start gaining crystals</string>
+    <string name="frg_karma_days_stub_title">No karma changes, start gain it with crystals ;))</string>
+    <string name="frg_karma_get_karma_for_tasks">Get karma for tasks</string>
+    <string name="frg_karma_get_karma_for_views">Get karma for views</string>
+    <string name="frg_karma_statistics_action_title_exchange">Exchange to [amount] [icon]</string>
+    <string name="frg_karma_statistics_action_title_none">Not enough for exchange</string>
+    <string name="frg_karma_statistics_action_title_restore">Restore for [amount] [icon]</string>
+    <string name="frg_karma_statistics_msg_exchanged">Received [amount] [icon]!</string>
+    <string name="frg_karma_statistics_msg_restored">Karma has been restored, do not unfollow again [emoji:WINKING_FACE]</string>
+    <string name="frg_karma_statistics_title_your_karma">Your karma:</string>
+    <string name="frg_karma_summary_crystals_to_karma">"Your karma is negative. Now you can't create orders and spend your crystals until karma is negative. Approximate time for restoring karma is [amount] day/days."</string>
+    <string name="frg_karma_summary_karma_to_crystals">You can exchange karma for crystals!</string>
+    <string name="frg_karma_summary_none">You can exchange karma for crystals!</string>
+    <string name="frg_karma_toolbar_title">Karma</string>
+    <string name="frg_manual_view_tasks_action_confirming">Getting…</string>
+    <string name="frg_manual_view_tasks_action_none">…</string>
+    <string name="frg_manual_view_tasks_action_progress">…</string>
+    <string name="frg_manual_view_tasks_action_retry">Retry search</string>
+    <string name="frg_manual_view_tasks_action_reward">Get [amount] [icon]</string>
+    <string name="frg_manual_view_tasks_action_view">Watch +[amount] [icon]</string>
+    <string name="frg_manual_view_tasks_content_stub_msg">"Found a task,
+you can do it!"</string>
+    <string name="frg_manual_view_tasks_progress_msg">Searching for a new task…</string>
+    <string name="frg_manual_view_tasks_retry_msg">"Can't find a task,
+try again…"</string>
+    <string name="frg_manual_view_tasks_toolbar_title">Gaining</string>
+    <string name="frg_orders_complete_done_title">Gotten</string>
+    <string name="frg_orders_incomplete_follow_order_of">of</string>
+    <string name="frg_orders_incomplete_likes_order_of">of</string>
+    <string name="frg_orders_likes_order_item_invalid_title">Invalid</string>
+    <string name="frg_orders_section_header_complete_orders">Completed</string>
+    <string name="frg_orders_section_header_complete_orders_action">Clear</string>
+    <string name="frg_orders_section_header_incomplete_orders_followers">Followers</string>
+    <string name="frg_orders_section_header_incomplete_orders_likes">Likes</string>
+    <string name="frg_orders_section_header_incomplete_orders_views">Views</string>
+    <string name="frg_orders_stub_action">Create</string>
+    <string name="frg_orders_stub_title">No orders, swipe to refresh [emoji:SMILING_FACE_WITH_OPEN_MOUTH_COLD_SWEAT]</string>
+    <string name="frg_orders_title">Orders</string>
+    <string name="frg_partnership_action">Become a Partner</string>
+    <string name="frg_partnership_description">Are you a blogger or a famous personality? Then you should consider our proposal! Do not waste your time on gaining crystals, join our partnership[emoji:RAISED_FIST] and get them much more easier and faster [emoji:WINKING_FACE]</string>
+    <string name="frg_partnership_request_comment_hint">Comment (optional)</string>
+    <string name="frg_partnership_request_comment_hint_required_msg">You must specify your link (full link)!</string>
+    <string name="frg_partnership_request_social_network_title">Social network:</string>
+    <string name="frg_partnership_request_toolbar_title">Your information</string>
+    <string name="frg_partnership_request_your_link_hint">Your full link (required)</string>
+    <string name="frg_partnership_request_your_link_hint_pattern">Full [social_link] link (required)</string>
+    <string name="frg_partnership_title">Become our partner [emoji:THUMBS_UP]</string>
+    <string name="frg_partnership_toolbar_title">Partnership</string>
+    <string name="frg_premium_goods_default_status_item_subtitle">You have no premium :(</string>
+    <string name="frg_premium_goods_default_status_item_title">Oops…</string>
+    <string name="frg_premium_goods_premium_status_item_subtitle_pattern">[amount] [days]</string>
+    <string name="frg_premium_goods_premium_status_item_title">Expires in</string>
+    <string name="frg_premium_goods_section_0_title">What premium is for?</string>
+    <string name="frg_premium_goods_section_1_title">Packages</string>
+    <string name="frg_profile_btn_delete_order">Delete order</string>
+    <string name="frg_profile_btn_increase_order">Increase order</string>
+    <string name="frg_profile_btn_invalid_order">Why order invalid?</string>
+    <string name="frg_profile_no_stories_for_order_action">Open Insta</string>
+    <string name="frg_profile_no_stories_for_order_title">No stories for order!</string>
+    <string name="frg_profile_stub_title">No posts, swipe to refresh ;)</string>
+    <string name="frg_profile_swap_url_hint">Nickname</string>
+    <string name="frg_profile_title">Posts</string>
+    <string name="frg_profile_tutorial_description_0">Information about followers etc.</string>
+    <string name="frg_profile_tutorial_description_1">Increase your audience</string>
+    <string name="frg_profile_tutorial_description_2">Breathe life into your posts</string>
+    <string name="frg_profile_tutorial_title_0">View profile</string>
+    <string name="frg_profile_tutorial_title_1">Order followers</string>
+    <string name="frg_profile_tutorial_title_2">Order comments</string>
+    <string name="frg_referral_code_copied_msg">Copied!</string>
+    <string name="frg_referral_code_description">Invite friends via your personal referral code and get [amount] crystals from their income and purchases!</string>
+    <string name="frg_referral_code_toolbar_title">Referral code</string>
+    <string name="frg_referral_title_tap_to_copy">Copy</string>
+    <string name="frg_referrals_system_bottom_description">A referral is available [days] day/days and brings [percent] crystals from his earnings and purchases. You observe the statistics for the last [amount] days.</string>
+    <string name="frg_referrals_system_chart_stub">• No data</string>
+    <string name="frg_referrals_system_common_statistics_active">Activity</string>
+    <string name="frg_referrals_system_common_statistics_crystals">Crystals</string>
+    <string name="frg_referrals_system_common_statistics_days_postfix">Days</string>
+    <string name="frg_referrals_system_common_statistics_header_title">Common statistics</string>
+    <string name="frg_referrals_system_common_statistics_invited">Invited</string>
+    <string name="frg_referrals_system_common_statistics_referrals">Alive ref.</string>
+    <string name="frg_referrals_system_daily_statistics_header_title">Daily statistics</string>
+    <string name="frg_referrals_system_referral_code_title">Referral code:</string>
+    <string name="frg_referrals_system_reward_complete_timer_title">time remains %1$s</string>
+    <string name="frg_referrals_system_reward_complete_today_pattern">Get for [insert]</string>
+    <string name="frg_referrals_system_reward_complete_today_pattern_insert">Yesterday</string>
+    <string name="frg_referrals_system_reward_header_title">Reward</string>
+    <string name="frg_referrals_system_reward_msg_1">Gotten [crystals] [crystals_icon] ;)</string>
+    <string name="frg_referrals_system_reward_msg_2">Gotten [crystals] [crystals_icon] and [karma] [karma_icon] ;)</string>
+    <string name="frg_referrals_system_reward_progress_timer_title">available in %1$s</string>
+    <string name="frg_referrals_system_reward_progress_today_pattern">Gained during [insert]</string>
+    <string name="frg_referrals_system_reward_progress_today_pattern_insert">Today</string>
+    <string name="frg_referrals_system_stub_action">Back</string>
+    <string name="frg_referrals_system_stub_title">Your referrals are expired, but you can always invite more :)</string>
+    <string name="frg_referrals_system_toolbar_title">Referral system</string>
+    <string name="frg_reward_for_specifying_btn_next">Get and continue</string>
+    <string name="frg_reward_for_specifying_description">Invite friends using your referral code and get rewards every day!</string>
+    <string name="frg_reward_for_specifying_subtitle">your inviter</string>
+    <string name="frg_reward_for_specifying_title">Thank you from</string>
+    <string name="frg_server_authentication_progress_state_check_health">Checking authorization status…</string>
+    <string name="frg_server_authentication_progress_state_checking_status">Approving authorization…</string>
+    <string name="frg_server_authentication_progress_state_loading_accounts_bundle_state">Checking accounts bundle…</string>
+    <string name="frg_server_authentication_progress_state_loading_data">Synchronizing data…</string>
+    <string name="frg_server_authentication_progress_state_loading_server_properties">Downloading authorization settings…</string>
+    <string name="frg_server_authentication_progress_state_sending_login_request">Sending authorization request…</string>
+    <string name="frg_settings_pref_category_title_account">Account</string>
+    <string name="frg_settings_pref_item_app_version_summary">[version] ([general_engine_version]/[gaining_engine_version])</string>
+    <string name="frg_settings_pref_item_app_version_title">App version</string>
+    <string name="frg_settings_pref_item_clear_cookie_on_logout_summary">Do not use it if you do not know what is it</string>
+    <string name="frg_settings_pref_item_clear_cookie_on_logout_title">Reset cookies while logout</string>
+    <string name="frg_settings_pref_item_logout_all_summary">Application cache will be cleared</string>
+    <string name="frg_settings_pref_item_logout_all_title">Logout all accounts</string>
+    <string name="frg_settings_pref_item_reauth_all_summary">All app data will be refreshed</string>
+    <string name="frg_settings_pref_item_reauth_all_title">Reauthenticate all accounts</string>
+    <string name="frg_settings_pref_item_reset_system_cache_summary">Do not use it if you do not know what is it</string>
+    <string name="frg_settings_pref_item_reset_system_cache_title">Reset constants</string>
+    <string name="frg_shop_stub_action">Open site</string>
+    <string name="frg_shop_stub_description">Supported payment methods: MasterCard, Visa, Apple Pay, Samsung Pay, Qiwi, WebMoney and many others.</string>
+    <string name="frg_shop_stub_title">Buy on website!</string>
+    <string name="frg_shop_toolbar_title">Shop</string>
+    <string name="frg_sign_in_btn_contact_us">Login problems?</string>
+    <string name="frg_sign_in_btn_sign_in">Sign in</string>
+    <string name="frg_sign_in_logo_title_1">@string/application_name</string>
+    <string name="frg_sign_in_logo_title_2">Everything you need</string>
+    <string name="frg_sign_in_logo_title_3">In one click</string>
+    <string name="frg_slots_products_section_0_title">What slots are for?</string>
+    <string name="frg_slots_products_section_1_title">Packs</string>
+    <string name="frg_slots_status_caption">"Your
+slots"</string>
+    <string name="frg_slots_status_has_free_slots_title">Free slots</string>
+    <string name="frg_slots_status_has_no_free_slots_subtitle">You can buy more…</string>
+    <string name="frg_slots_status_has_no_free_slots_title">All slots are used ;(</string>
+    <string name="frg_specify_inviter_btn_action">Confirm</string>
+    <string name="frg_specify_inviter_btn_skip">Skip</string>
+    <string name="frg_specify_inviter_caption">Some app user may have shared a referral code with you. Enter a referral code and get reward!</string>
+    <string name="frg_specify_inviter_edt_title">Code here</string>
+    <string name="frg_specify_inviter_title">Have referral code?</string>
+    <string name="frg_suspects_check_limit_message_pattern">Next search will be available after %1$s.</string>
+    <string name="frg_suspects_check_limit_title">Oops, too often :(</string>
+    <string name="frg_suspects_counter1_title">"checked
+suspects"</string>
+    <string name="frg_suspects_counter2_title">"found
+unfollowers"</string>
+    <string name="frg_suspects_deceivers_section_header_title">Found unfollowers ([count])</string>
+    <string name="frg_suspects_deceivers_stub">Start searching</string>
+    <string name="frg_suspects_deceivers_stub_title">Start searching to find all unfollowers. Only followers of this account are checked, the orders for any other account you should check on that particular account [emoji:THINKING_FACE]</string>
+    <string name="frg_suspects_options_menu_item_reorder">Checking order</string>
+    <string name="frg_suspects_options_menu_item_reset_cache">Reset cache</string>
+    <string name="frg_suspects_panel_title">Gotten karma:</string>
+    <string name="frg_suspects_progress_sync_title">Synchronizing…</string>
+    <string name="frg_suspects_snackbar_msg_no_suspects_to_check">All followers you have got during last time are already checked!</string>
+    <string name="frg_suspects_snackbar_msg_not_found_deceivers">Unfollowers were not found!</string>
+    <string name="frg_suspects_toolbar_title">Detect unfollowers</string>
+    <string name="frg_suspects_tutorial_0_description">Take away karma from deceivers!</string>
+    <string name="frg_suspects_tutorial_0_title">Find your unfollowers!</string>
+    <string name="frg_transfer_bookmark_add_title">"Add
+bookmark"</string>
+    <string name="frg_transfer_btn_send">Send</string>
+    <string name="frg_transfer_bundle_advice_title">Transfer commission between accounts in bundle is only [commission]%.</string>
+    <string name="frg_transfer_fave_dlg_item_remove">Delete</string>
+    <string name="frg_transfer_item_pattern_in">Received [count] [icon] from [link]</string>
+    <string name="frg_transfer_item_pattern_out">Sent [count] [icon] to [link]</string>
+    <string name="frg_transfer_items_header_send_to">Send to</string>
+    <string name="frg_transfer_items_header_transaction_history_l">Transactions history</string>
+    <string name="frg_transfer_msg_fave_added">Added!</string>
+    <string name="frg_transfer_msg_field_empty">Enter nickname first!</string>
+    <string name="frg_transfer_msg_send">Sent!</string>
+    <string name="frg_transfer_short_link_hint">Nickname</string>
+    <string name="frg_transfer_toolbar_title">Crystals transfers</string>
+    <string name="frg_transfer_transactions_empty">No transactions, swipe to refresh ;)</string>
+    <string name="frg_unfollow_attention_allow">Accept</string>
+    <string name="frg_unfollow_attention_allow_pattern">Accept ([amount] clicks left)</string>
+    <string name="frg_unfollow_attention_summary">You allow the application to follow other users for crystals. If you unfollow, you will lose karma. You can not create orders and spend your crystals with negative karma. To restore it, you will pay more than you get, trying to deceive us.</string>
+    <string name="frg_unfollow_attention_title">We punish for unfollowing!</string>
+    <string name="frg_unfollow_attentions_action_hide_additional_ways">Additional ways (hide)</string>
+    <string name="frg_unfollow_attentions_action_show_additional_ways">Additional ways (show)</string>
+    <string name="frg_unfollow_attentions_additional_message">"Want to earn more crystals[emoji:SMILING_FACE_WITH_HALO], without following other users? Make an [link:1]\"Account bundle\"[/link:1] and use several accounts together, switching between them in a one click. It's conveniently and profitable, if you want to earn crystals on one account, and spend them on another, because commission for crystals transfer is only [commission]%! Also, you can get crystals for [link:2]manual tasks[/link:2][emoji:WINKING_FACE]."</string>
+    <string name="frg_web_view_auth_btn_done_authentication">Next</string>
+    <string name="frg_web_view_auth_btn_repeat">Retry</string>
+    <string name="frg_web_view_auth_button">Logged in, next</string>
+    <string name="frg_web_view_auth_dlg_back_pressed_title">Do you really want to quit?</string>
+    <string name="frg_web_view_auth_dlg_complete_message">Are you sure you logged in your Instagram account?</string>
+    <string name="frg_web_view_auth_dlg_complete_title">Proceed to app</string>
+    <string name="frg_web_view_auth_menu_item_title_help">Help</string>
+    <string name="frg_web_view_auth_menu_item_title_reset">Reset</string>
+    <string name="frg_web_view_auth_msg_load_constants">Downloading data, please wait…</string>
+    <string name="frg_web_view_auth_msg_load_constants_error">Connection error, check your network and retry!</string>
+    <string name="frg_web_view_auth_msg_page_not_loaded_yet">Page not loaded yet</string>
+    <string name="frg_web_view_auth_title">Sign in</string>
+    <string name="gaining_service_message_notification_title">Important!</string>
+    <string name="gaining_service_notification_detailed_text">Gotten [amount] crystals</string>
+    <string name="gaining_service_notification_detailed_title">Crystals gaining (@[short_link])</string>
+    <string name="gaining_service_notification_gotten_crystals">Gained crystals:</string>
+    <string name="gaining_service_notification_text">"Don't remove this notification!"</string>
+    <string name="gaining_service_notification_title">Background work</string>
+    <string name="gaining_service_unauthorized_notification_msg">After login you can continue gaining crystals)))</string>
+    <string name="gaining_service_unauthorized_notification_title">You need to login!</string>
+    <string name="gcm_defaultSenderId">742343457928</string>
+    <string name="get_smt">Get</string>
+    <string name="getting_more">Loading more…</string>
+    <string name="google_api_key">AIzaSyDBqLBe0x2KZkxhXAVwo3WqJ5frZg9ZCWI</string>
+    <string name="google_app_id">1:742343457928:android:b71374d7ecc37c3b30733d</string>
+    <string name="google_crash_reporting_api_key">AIzaSyDBqLBe0x2KZkxhXAVwo3WqJ5frZg9ZCWI</string>
+    <string name="google_storage_bucket">hiketop-944ad.appspot.com</string>
+    <string name="gs_notification_message_title">Message!</string>
+    <string name="gs_notification_msg_not_authenticated_message">"App can't execute tasks"</string>
+    <string name="gs_notification_msg_not_authenticated_title">Authentication is required!</string>
+    <string name="gs_notification_msg_smt_went_wrong_message">Make sure there is no problem on site</string>
+    <string name="gs_notification_msg_smt_went_wrong_title">Internal error occurred!</string>
+    <string name="hide_bottom_view_on_scroll_behavior">com.google.android.material.behavior.HideBottomViewOnScrollBehavior</string>
+    <string name="hide_more">Hide</string>
+    <string name="hours">Hours</string>
+    <string name="hours_short_postfix">h</string>
+    <string name="just_before">Just before</string>
+    <string name="karma">Karma</string>
+    <string name="lato_bold">LatoTTF/Lato-Bold.ttf</string>
+    <string name="lato_regular">LatoTTF/Lato-Regular.ttf</string>
+    <string name="library_appintro_author">Paolo Rotolo</string>
+    <string name="library_appintro_authorWebsite">http://paolorotolo.github.io/</string>
+    <string name="library_appintro_classPath">com.github.paolorotolo.appintro</string>
+    <string name="library_appintro_isOpenSource">true</string>
+    <string name="library_appintro_libraryDescription">AppIntro is a library for making a cool intro in your Android apps.</string>
+    <string name="library_appintro_libraryName">AppIntro</string>
+    <string name="library_appintro_libraryVersion">3.2.0</string>
+    <string name="library_appintro_libraryWebsite">https://github.com/PaoloRotolo/AppIntro</string>
+    <string name="library_appintro_licenseId">apache_2_0</string>
+    <string name="library_appintro_repositoryLink">https://github.com/PaoloRotolo/AppIntro</string>
+    <string name="lines">Lines</string>
+    <string name="loading">Loading…</string>
+    <string name="logs">Logs</string>
+    <string name="lorem_ipsum">"\u0009\u0009Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris volutpat, dolor id interdum ullamcorper, risus dolor egestas lectus, sit amet mattis purus dui nec risus. Maecenas non sodales nisi, vel dictum dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse blandit eleifend diam, vel rutrum tellus vulputate quis. Aliquam eget libero aliquet, imperdiet nisl a, ornare ex. Sed rhoncus est ut libero porta lobortis. Fusce in dictum tellus. 
+
+\u0009\u0009Suspendisse interdum ornare ante. Aliquam nec cursus lorem. Morbi id magna felis. Vivamus egestas, est a condimentum egestas, turpis nisl iaculis ipsum, in dictum tellus dolor sed neque. Morbi tellus erat, dapibus ut sem a, iaculis tincidunt dui. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur et eros porttitor, ultricies urna vitae, molestie nibh. Phasellus at commodo eros, non aliquet metus. Sed maximus nisl nec dolor bibendum, vel congue leo egestas. 
+
+\u0009\u0009Sed interdum tortor nibh, in sagittis risus mollis quis. Curabitur mi odio, condimentum sit amet auctor at, mollis non turpis. Nullam pretium libero vestibulum, finibus orci vel, molestie quam. Fusce blandit tincidunt nulla, quis sollicitudin libero facilisis et. Integer interdum nunc ligula, et fermentum metus hendrerit id. Vestibulum lectus felis, dictum at lacinia sit amet, tristique id quam. Cras eu consequat dui. Suspendisse sodales nunc ligula, in lobortis sem porta sed. Integer id ultrices magna, in luctus elit. Sed a pellentesque est. 
+
+\u0009\u0009Aenean nunc velit, lacinia sed dolor sed, ultrices viverra nulla. Etiam a venenatis nibh. Morbi laoreet, tortor sed facilisis varius, nibh orci rhoncus nulla, id elementum leo dui non lorem. Nam mollis ipsum quis auctor varius. Quisque elementum eu libero sed commodo. In eros nisl, imperdiet vel imperdiet et, scelerisque a mauris. Pellentesque varius ex nunc, quis imperdiet eros placerat ac. Duis finibus orci et est auctor tincidunt. Sed non viverra ipsum. Nunc quis augue egestas, cursus lorem at, molestie sem. Morbi a consectetur ipsum, a placerat diam. Etiam vulputate dignissim convallis. Integer faucibus mauris sit amet finibus convallis. 
+
+\u0009\u0009Phasellus in aliquet mi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In volutpat arcu ut felis sagittis, in finibus massa gravida. Pellentesque id tellus orci. Integer dictum, lorem sed efficitur ullamcorper, libero justo consectetur ipsum, in mollis nisl ex sed nisl. Donec maximus ullamcorper sodales. Praesent bibendum rhoncus tellus nec feugiat. In a ornare nulla. Donec rhoncus libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim."</string>
+    <string name="manual_gaining_title">Manual earning</string>
+    <string name="minutes">Minutes</string>
+    <string name="minutes_short_postfix">m</string>
+    <string name="msg_added">Added!</string>
+    <string name="msg_background_work_already_improved">Background work is already improved!</string>
+    <string name="msg_connection_error">Connection error!</string>
+    <string name="msg_copied">Copied!</string>
+    <string name="msg_done">Done!</string>
+    <string name="msg_not_enough_crystals">Not enough crystals!</string>
+    <string name="msg_operation_success">Success!</string>
+    <string name="msg_purchases_action_repeat">Retry</string>
+    <string name="msg_purchases_billing_disconnected">Connection to Google Play is lost, check internet connection!</string>
+    <string name="msg_purchases_billing_unavailable">Purchases are not available, please check that you are logged in Play Market app!</string>
+    <string name="msg_purchases_connection_error_description">Purchases list should be here. Check your internet connection and try again later :)</string>
+    <string name="msg_purchases_connection_error_title">"Oops…
+can not connect."</string>
+    <string name="msg_purchases_feature_not_supported">Purchases are not available on your device!</string>
+    <string name="msg_purchases_item_unavailable">This item is not available now!</string>
+    <string name="msg_purchases_pm_unavailable_description">Connection to Google Play is lost, please check that you are logged in Play Market app!</string>
+    <string name="msg_purchases_pm_unavailable_title">"Ooh…
+terrible accident."</string>
+    <string name="msg_purchases_service_unavailable">Purchases are not available, please check that you are logged in Play Market app!</string>
+    <string name="msg_purchases_smth_went_wrong_description">"Oops…
+something went wrong."</string>
+    <string name="msg_purchases_smth_went_wrong_title">"Oops…
+something went wrong."</string>
+    <string name="msg_purchases_unavailable_description">Purchases are not available on your device!</string>
+    <string name="msg_purchases_unavailable_title">"Ooh…
+terrible accident."</string>
+    <string name="msg_reward_1">Gotten [amount] [icon]!</string>
+    <string name="msg_saved">Saved!</string>
+    <string name="msg_something_went_wrong">Something went wrong, please tell us about it!</string>
+    <string name="msg_success">Success!</string>
+    <string name="msg_you_should_have_email_client">You should have some email client. Try to install any and try aging!</string>
+    <string name="mtrl_chip_close_icon_content_description">Remove %1$s</string>
+    <string name="no">No</string>
+    <string name="ntf_earning_crystals_summary">Earned %1$d crystals in total</string>
+    <string name="ntf_earning_crystals_title">Accounts working: %1$d/%2$d</string>
+    <string name="ok">OK</string>
+    <string name="open">Open</string>
+    <string name="partnership_email_body_header">(You can attach some files to this email, but you should not edit information below)</string>
+    <string name="password_toggle_content_description">Show password</string>
+    <string name="path_password_eye">M12,4.5C7,4.5 2.73,7.61 1,12c1.73,4.39 6,7.5 11,7.5s9.27,-3.11 11,-7.5c-1.73,-4.39 -6,-7.5 -11,-7.5zM12,17c-2.76,0 -5,-2.24 -5,-5s2.24,-5 5,-5 5,2.24 5,5 -2.24,5 -5,5zM12,9c-1.66,0 -3,1.34 -3,3s1.34,3 3,3 3,-1.34 3,-3 -1.34,-3 -3,-3z</string>
+    <string name="path_password_eye_mask_strike_through">M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
+    <string name="path_password_eye_mask_visible">M2,4.27 L2,4.27 L4.54,1.73 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
+    <string name="path_password_strike_through">M3.27,4.27 L19.74,20.74</string>
+    <string name="permission_storage">App needs access to your storage so that you can save photos and videos.</string>
+    <string name="please_wait">Please wait…</string>
+    <string name="premium">Premium</string>
+    <string name="profile_counter_title_followers">Followers</string>
+    <string name="profile_counter_title_following">Following</string>
+    <string name="profile_counter_title_posts">Posts</string>
+    <string name="profile_sdd_stories_views_action_btn">+ Story views</string>
+    <string name="project_id">hiketop-944ad</string>
+    <string name="pull_down_to_load">Pull down to load.</string>
+    <string name="pull_down_to_refresh">Pull down to refresh.</string>
+    <string name="pull_up_to_get_more">Pull up to load more.</string>
+    <string name="refresh">Refresh</string>
+    <string name="release_to_get_more">Release to load more.</string>
+    <string name="release_to_load">Release to load.</string>
+    <string name="release_to_refresh">Release to refresh.</string>
+    <string name="rm_act_files_send_file_via">Send file via</string>
+    <string name="rm_act_files_title">For last 7 days</string>
+    <string name="rm_app_name">RMLog</string>
+    <string name="rm_down">Update</string>
+    <string name="rm_msg_smth_went_wrong">Something went wrong!</string>
+    <string name="rm_refresh">Update</string>
+    <string name="rm_up">Update</string>
+    <string name="rmsg_need_instagram_app_action">Download</string>
+    <string name="rmsg_need_instagram_app_message">To continue you should have official Instagram app installed :)</string>
+    <string name="rmsg_need_instagram_app_title">Need Instagram app!</string>
+    <string name="roboto_bold">RobotoTTF/Roboto-Bold.ttf</string>
+    <string name="roboto_light">RobotoTTF/Roboto-Light.ttf</string>
+    <string name="roboto_light_condensed">RobotoTTF/RobotoCondensed-Light.ttf</string>
+    <string name="roboto_medium">RobotoTTF/Roboto-Medium.ttf</string>
+    <string name="roboto_medium_condensed">RobotoTTF/RobotoCondensed-Bold.ttf</string>
+    <string name="roboto_regular">RobotoTTF/Roboto-Regular.ttf</string>
+    <string name="roboto_regular_condensed">RobotoTTF/RobotoCondensed-Regular.ttf</string>
+    <string name="s1">Save image</string>
+    <string name="s2">Allow Ad to store image in Picture gallery?</string>
+    <string name="s3">Accept</string>
+    <string name="s4">Decline</string>
+    <string name="s5">Create calendar event</string>
+    <string name="s6">Allow Ad to create a calendar event?</string>
+    <string name="s7">Test Ad</string>
+    <string name="scr_add_fave_user_link_edt_hint">Enter Instagram nickname</string>
+    <string name="scr_add_fave_user_toolbar_title">New bookmark</string>
+    <string name="scr_reauth_content_message_apply">Saving data, please do not close the app…</string>
+    <string name="scr_reauth_content_message_setup">Restoring data, please do not close the app…</string>
+    <string name="scr_top_tutorial_action_description">Become popular [emoji:FACE_THROWING_KISS][emoji:FACE_THROWING_KISS][emoji:FACE_THROWING_KISS]!</string>
+    <string name="scr_top_tutorial_action_title">Start gaining followers</string>
+    <string name="scr_top_tutorial_audience_description">Users who chosen this language will follow you oftener [emoji:BLACK_SMILING_FACE]</string>
+    <string name="scr_top_tutorial_audience_title">Choose your audience</string>
+    <string name="scr_top_tutorial_bookmarks_description">"You can add any user, even if doesn't use App [emoji:SMILING_FACE_WITH_SUN_GLASS]"</string>
+    <string name="scr_top_tutorial_bookmarks_title">Add your friend to TOP</string>
+    <string name="scr_top_tutorial_time_description">You get followers while you are in TOP [emoji:BLACK_SMILING_FACE]</string>
+    <string name="scr_top_tutorial_time_title">Time in TOP</string>
+    <string name="search">Search</string>
+    <string name="search_hint">Search</string>
+    <string name="search_menu_title">Search</string>
+    <string name="seconds">Seconds</string>
+    <string name="seconds_short_postfix">s</string>
+    <string name="send">Send</string>
+    <string name="service_foreground_notification_description">The notification will disappear after completion.</string>
+    <string name="service_foreground_notification_ticker">Background work</string>
+    <string name="service_foreground_notification_title">App working in background</string>
+    <string name="service_views_complete_message">Come back for a reward [icon]!</string>
+    <string name="service_views_notification_text">"Don't remove this notification until the task is completed!"</string>
+    <string name="service_views_notification_ticker">Gaining</string>
+    <string name="service_views_notification_title">Completing task</string>
+    <string name="service_views_preparing_message_proof_bookmark">Click [bookmark] and wait [alarm]…</string>
+    <string name="service_views_preparing_message_proof_like">Click [like] and wait [alarm]…</string>
+    <string name="service_views_timer_message">Remains [amount] sec.</string>
+    <string name="settings">Settings</string>
+    <string name="share">Share</string>
+    <string name="share_via">Share via</string>
+    <string name="show_more">Show more</string>
+    <string name="sign_in">Sign in</string>
+    <string name="sign_out">Sign out</string>
+    <string name="sign_up">Sign up</string>
+    <string name="smd_title_0">Menu</string>
+    <string name="smd_title_1">Statistics</string>
+    <string name="smd_title_2">Contacts</string>
+    <string name="snackbar_action_get_crystals">Get</string>
+    <string name="snackbar_not_authorized_action">Reauth</string>
+    <string name="snackbar_not_authorized_msg">You are not authenticated</string>
+    <string name="src_bought_products_stub_action">Feed the developers</string>
+    <string name="src_bought_products_stub_description">"Developers also want to eat…
+Try to update the screen if you have already fed the developers."</string>
+    <string name="src_bought_products_stub_title">"Ooh…
+no purchases yet [emoji:FACE_WITH_OPEN_MOUTH_COLD_SWEAT]"</string>
+    <string name="src_bought_products_toolbar_title">My purchases</string>
+    <string name="src_conf_top_ent_action_another">Add to TOP</string>
+    <string name="src_conf_top_ent_action_self">Enter TOP</string>
+    <string name="src_conf_top_ent_title">Is it correct?</string>
+    <string name="src_conf_top_ent_title_account">Account</string>
+    <string name="src_conf_top_ent_title_audience">Audience (language)</string>
+    <string name="src_conf_top_ent_title_duration">Duration</string>
+    <string name="src_conf_top_ent_title_price">Price</string>
+    <string name="src_select_top_audience_title">Audience</string>
+    <string name="src_select_top_target_user_action_add">New</string>
+    <string name="src_select_top_target_user_title">Your bookmarks</string>
+    <string name="src_top_banner_action">Recheck</string>
+    <string name="src_top_enter_top_action_another">Add for [price] [icon]</string>
+    <string name="src_top_enter_top_action_self">Enter for [price] [icon]</string>
+    <string name="src_top_enter_top_target">"[time] in TOP for
+[short_link]"</string>
+    <string name="src_top_item_action_it_is_you">You</string>
+    <string name="src_top_item_action_pending">Pending…</string>
+    <string name="src_top_item_action_subscribe">Follow +[reward] [icon]</string>
+    <string name="src_top_item_action_subscribed">Followed</string>
+    <string name="src_top_item_action_subscribing">Following…</string>
+    <string name="src_top_item_action_your_friend">Your friend</string>
+    <string name="src_top_msg_followed_before">Followed before!</string>
+    <string name="src_top_msg_got_followers">Got followers [amount] ([language])</string>
+    <string name="src_top_toolbar_title">TOP</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
+    <string name="support_email_body">Describe your problem in details (add screenshots):</string>
+    <string name="support_email_dialog_title">Write via</string>
+    <string name="support_open_faq">Open tutorial (FAQ)</string>
+    <string name="tabs_tutorial_dashboard_description">Get daily bonus every day [emoji:SMILING_FACE_WITH_SUN_GLASS]</string>
+    <string name="tabs_tutorial_dashboard_title">News and gifts</string>
+    <string name="tabs_tutorial_gaining_description">Get crystals in auto mode [emoji:SMILING_FACE_WITH_SUN_GLASS]</string>
+    <string name="tabs_tutorial_gaining_title">Crystals earning</string>
+    <string name="tabs_tutorial_posts_description">Create like and video view orders [emoji:FACE_THROWING_KISS]</string>
+    <string name="tabs_tutorial_posts_title">Likes and views</string>
+    <string name="tabs_tutorial_referral_system_description">Invite your friends and get rewards for them [emoji:FACE_THROWING_KISS]</string>
+    <string name="tabs_tutorial_referral_system_title">Referral system</string>
+    <string name="tabs_tutorial_top_description">Enter TOP and get followers with chosen language [emoji:FACE_THROWING_KISS]</string>
+    <string name="tabs_tutorial_top_title">Followers</string>
+    <string name="time_prefix_hours">h</string>
+    <string name="time_prefix_minutes">m</string>
+    <string name="today">Today</string>
+    <string name="updating">Updating…</string>
+    <string name="v7_preference_off">OFF</string>
+    <string name="v7_preference_on">ON</string>
+    <string name="view">View</string>
+    <string name="view_tasks_attention_instagram_app_action">Download</string>
+    <string name="view_tasks_attention_instagram_app_summary">To continue you should have official Instagram app installed :)</string>
+    <string name="view_tasks_attention_instagram_app_title">Important!</string>
+    <string name="views_intro_slide_0_description">"Watch users' videos and get reward."</string>
+    <string name="views_intro_slide_0_title">Manual earning</string>
+    <string name="views_intro_slide_1_description_proof_bookmark">After video will be opened in Instagram app, add post to bookmarks and wait until timer finishes.</string>
+    <string name="views_intro_slide_1_description_proof_like">After video will be opened in Instagram app, give a like and wait until timer finishes.</string>
+    <string name="views_intro_slide_1_title">Simple actions</string>
+    <string name="views_intro_slide_2_description">You can exchange karma to crystals!</string>
+    <string name="views_intro_slide_2_title">Take reward</string>
+    <string name="write_us">Write us</string>
+    <string name="yes">Yes</string>
+    <string name="yesterday">Yesterday</string>
+</resources>

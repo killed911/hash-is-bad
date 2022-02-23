@@ -1,0 +1,684 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Перейти на главный экран</string>
+    <string name="abc_action_bar_up_description">Перейти вверх</string>
+    <string name="abc_action_menu_overflow_description">Ещё</string>
+    <string name="abc_action_mode_done">Готово</string>
+    <string name="abc_activity_chooser_view_see_all">Показать все</string>
+    <string name="abc_activitychooserview_choose_application">Выберите приложение</string>
+    <string name="abc_capital_off">ВЫКЛ</string>
+    <string name="abc_capital_on">ВКЛ</string>
+    <string name="abc_menu_alt_shortcut_label">Alt +</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl +</string>
+    <string name="abc_menu_delete_shortcut_label">Delete</string>
+    <string name="abc_menu_enter_shortcut_label">Ввод</string>
+    <string name="abc_menu_function_shortcut_label">Fn +</string>
+    <string name="abc_menu_meta_shortcut_label">Meta +</string>
+    <string name="abc_menu_shift_shortcut_label">Shift +</string>
+    <string name="abc_menu_space_shortcut_label">Пробел</string>
+    <string name="abc_menu_sym_shortcut_label">Sym +</string>
+    <string name="abc_prepend_shortcut_label">Меню +</string>
+    <string name="abc_search_hint">Введите запрос</string>
+    <string name="abc_searchview_description_clear">Удалить запрос</string>
+    <string name="abc_searchview_description_query">Поисковый запрос</string>
+    <string name="abc_searchview_description_search">Поиск</string>
+    <string name="abc_searchview_description_submit">Отправить запрос</string>
+    <string name="abc_searchview_description_voice">Голосовой поиск</string>
+    <string name="abc_shareactionprovider_share_with">Поделиться с помощью</string>
+    <string name="abc_shareactionprovider_share_with_application">Поделиться с помощью %s</string>
+    <string name="abc_toolbar_collapse_description">Свернуть</string>
+    <string name="account_rating_calculate_action">Посчитать рейтинг</string>
+    <string name="account_rating_calculate_action_progress">@string/please_wait</string>
+    <string name="account_rating_not_loaded_message">Ваш рейтинг не загружен, потяните вниз чтобы обновить :)</string>
+    <string name="account_rating_postfix_pattern">/[amount] звезд</string>
+    <string name="account_rating_rewards_title">Награды</string>
+    <string name="account_rating_stars_for_activity_title">Звезды за активность</string>
+    <string name="account_rating_stars_for_profile_title">Звезды за профиль</string>
+    <string name="account_rating_title">"Рейтинг
+аккаунта"</string>
+    <string name="act_app_hacked_cloned_description">Не нужно пытаться клонировать приложение. Мы сделали для вас \"связку аккаунтов\" [emoji:WINKING_FACE]</string>
+    <string name="act_app_hacked_cloned_title">Эх… зачем вы так :(</string>
+    <string name="act_app_hacked_compromised_description">Вы нарушаете политику приложения своей попыткой подделки сертификата, клонирования и реверс-инжиниринга!</string>
+    <string name="act_app_hacked_compromised_title">Эх… а вы нарушитель!</string>
+    <string name="act_app_hacked_toolbar_title">Вас поймали!</string>
+    <string name="act_bundle_intro_action_done">Создать</string>
+    <string name="act_bundle_intro_slide_0_description">Используй несколько аккаунтов и переключайся между ними в один клик</string>
+    <string name="act_bundle_intro_slide_0_title">Связка аккаунтов</string>
+    <string name="act_bundle_intro_slide_1_description">Зарабытывай кристаллы на дополнительном аккаунте, а трать на основном</string>
+    <string name="act_bundle_intro_slide_1_title">Будь хитрее</string>
+    <string name="act_bundle_intro_slide_2_description">Передавай кристаллы между аккаунтами в связке с минимальной комиссией</string>
+    <string name="act_bundle_intro_slide_2_title">Экономь больше</string>
+    <string name="act_bundle_intro_slide_3_description">Создай связку акканутов и будь лучше остальных!</string>
+    <string name="act_bundle_intro_slide_3_title">Начни уже сейчас</string>
+    <string name="act_comments_stub_description">Этот функционал находится в разработке, как только он будет готов - мы вас оповестим [emoji:WINKING_FACE]</string>
+    <string name="act_comments_stub_title">Совсем скоро!</string>
+    <string name="act_comments_toolbar_title">Комментарии</string>
+    <string name="act_dev_tools_toolbar_title">Дев-тулзы</string>
+    <string name="act_extra_crystals_tab_0">Экстра-задания</string>
+    <string name="act_extra_crystals_tab_1">Подарочный код</string>
+    <string name="act_extra_crystals_toolbar_title">Карма &amp; Кристаллы</string>
+    <string name="act_extra_tasks_toolbar_title">Экстра-задания</string>
+    <string name="act_gaining_counters_button_improve">Ускорить</string>
+    <string name="act_gaining_counters_button_prolong">Продлить</string>
+    <string name="act_gaining_counters_title_crystals">Кристаллы</string>
+    <string name="act_gaining_counters_title_energy">Карма</string>
+    <string name="act_gaining_counters_title_speed">Скорость</string>
+    <string name="act_gaining_menu_improve_background_work">Разрешить работать в фоне</string>
+    <string name="act_gaining_menu_item_write_us">@string/write_us</string>
+    <string name="act_gaining_menu_tutorial">Как пользоваться?</string>
+    <string name="act_gaining_menu_white_list">Открыть белый список (Doze Mode)</string>
+    <string name="act_gaining_started_msg">Заработок кристаллов запущен. Вы можете даже свернуть приложение!</string>
+    <string name="act_gaining_tutorial_description_1">Выполнять задания на подписку за кристаллы</string>
+    <string name="act_gaining_tutorial_description_2">Оставлять комментарии за кристаллы</string>
+    <string name="act_gaining_tutorial_description_3">Отображать детальную информацию о заработке в уведомлении (может увеличить расход батареи)</string>
+    <string name="act_gaining_tutorial_description_4">Повторить подсказку. Скорее всего, вы ее пропустили… [emoji:PENSIVE_FACE]</string>
+    <string name="act_gaining_tutorial_description_5">Начать выполнять задания. После запуска вы можете свернуть приложение [emoji:WINKING_FACE][emoji:WINKING_FACE]</string>
+    <string name="act_gaining_tutorial_title_1">Подписываться</string>
+    <string name="act_gaining_tutorial_title_2">Комментировать</string>
+    <string name="act_gaining_tutorial_title_3">Уведомление</string>
+    <string name="act_gaining_tutorial_title_4">Подсказка</string>
+    <string name="act_gaining_tutorial_title_5">Получать кристаллы</string>
+    <string name="act_goods_tab_0">Кристаллы</string>
+    <string name="act_goods_tab_1">Премиум</string>
+    <string name="act_goods_tab_2">Слоты</string>
+    <string name="act_goods_toolbar_title">Магазин</string>
+    <string name="act_main_drawer_profiles_item_manage_accounts">Управление аккаунтами</string>
+    <string name="act_manage_accounts_add_account_title">Добавить</string>
+    <string name="act_manage_accounts_dlg_unlinked_message">Аккаунт отвязан, теперь вы можете привязать новый ;)</string>
+    <string name="act_manage_accounts_dlg_unlinked_title">Готово</string>
+    <string name="act_manage_accounts_item_unauthorized_snackbar_action">Войти</string>
+    <string name="act_manage_accounts_item_unauthorized_snackbar_title">Вы не авторизованы!</string>
+    <string name="act_manage_accounts_menu_item_logout_all">Выйти со всех аккаунтов</string>
+    <string name="act_manage_accounts_menu_item_reauth_all">Переавторизовать все аккаунты</string>
+    <string name="act_manage_accounts_toolbar_title">Аккуанты</string>
+    <string name="act_products_msg_bought">Куплено!</string>
+    <string name="act_products_msg_gotten">Получено ранее!</string>
+    <string name="act_reauth_button">Далее</string>
+    <string name="act_reauth_dialog_msg_no_reauthenticated_accounts">Нужно будет войти через веб-интерфейс!</string>
+    <string name="act_reauth_dialog_msg_not_all_accounts_reauthenticated">Не все аккаунты были переавторизованы!</string>
+    <string name="act_reauth_title">Автоматическое восстановление данных авторизации</string>
+    <string name="act_settings_toolbar_title">Настройки</string>
+    <string name="act_terms_of_service_toolbar_title">Соглашение</string>
+    <string name="act_transfer_pattern_fee_title">Кристаллов, комиссия -</string>
+    <string name="act_web_title">Браузер</string>
+    <string name="action_up">Вверх</string>
+    <string name="activity_cleaning_description">Очистка кэша и данных авторизации…</string>
+    <string name="activity_logout_back_pressed_attention">Дождитесь окончания пожалуйста!</string>
+    <string name="all_required_fields_should_be_filled">Все обязательные поля должны быть заполнены!</string>
+    <string name="app_intro_done_button">Готово</string>
+    <string name="app_intro_skip_button">Пропустить</string>
+    <string name="app_intro_slide_0_description">Продвигай свою страницу автоматически</string>
+    <string name="app_intro_slide_0_title">Становись популярным</string>
+    <string name="app_intro_slide_1_description">Увеличивай кол-во своих фанатов ежедневно</string>
+    <string name="app_intro_slide_1_title">Будь известным</string>
+    <string name="app_intro_slide_2_description">Добейся своих целей</string>
+    <string name="app_intro_slide_2_title">Стань первым</string>
+    <string name="app_name">Gainer</string>
+    <string name="app_terms_of_service_action">Я принимаю пользовательское соглашение</string>
+    <string name="app_terms_of_service_description">" 1. Используя настоящее приложение "<b>\"Hiketop+\"</b>" (далее - Приложение), Вы получаете возможность:
+  1.1. использования сервисов Приложения;
+  1.2. приобретение электронных товаров и/или услуг для дальнейшего использования внутри Приложения;
+  1.3. получения помощи при возникновении проблем, связанных с использованием Приложения от техподдержки Приложения;
+
+ 2. Деятельность данного Приложения направлена исключительно на обеспечение процесса взаимодействия любых заинтересованных лиц (далее - Пользователи) для получения кристаллов внутри Приложения.
+
+ 3. Приложение предоставляет Пользователям ряд вышеуказанных функций и не дает гарантий относительно скорости и/или надежности их исполнения.
+
+ 4. Использование Пользователями Приложения означает, что Пользователь согласен с приведенными условиями настоящего Пользовательского соглашения, а также со всеми изменениями и/или дополнениями к нему.
+
+ 5. Приложение оставляет за собой право по своему усмотрению осуществлять любое изменение и/или дополнение настоящего Пользовательского соглашения в любое время без предварительного и/или последующего уведомления Пользователя. Новая редакция Пользовательского соглашения вступает в силу с момента ее размещения в Приложении.
+
+ 6. В случае несогласия Пользователя с каким-либо из положений Пользовательского соглашения, Пользователь не вправе использовать Приложение. В случае, если Приложением были внесены какие-либо изменения в Пользовательское соглашение, с которыми Пользователь не согласен, последний обязан прекратить использование приложения.
+
+ 7. Настоящее Пользовательское соглашение обязательно для всех Пользователей приложения.
+
+ 8. Создатели Приложения (Далее - "<b>Hiketop</b>") НЕ гарантируют, что работа Приложения будет:
+  8.1. соответствовать ожиданиям Пользователя;
+  8.2. бесперебойной;
+  8.3. безошибочной;
+  8.4. сервисы Приложения будут всегда доступны для Пользователей или будут стабильно функционировать;
+  8.5. гарантированно обеспечивать быстроту передачи данных и/или скорости работы приложения, а так же обеспечивать отсутствие орфографических ошибок и опечаток;
+
+ 9. Со своей стороны "<b>Hiketop</b>" приложат все возможные усилия с целью обеспечения вышеперечисленных свойств работы Приложения.
+
+ 10. Hiketop не несут ответственности, в том числе, но не ограничиваясь, за любые материальные или моральные убытки, причиненные из-за использования либо невозможности использования Пользователями Приложения, а также за любые последствия несанкционированного Пользователем/незаконного доступа третьих лиц к данным авторизации Пользователя (логин, пароль), компьютеру либо личной информации последнего.
+
+ 11. Приложение не является клиентом для "<b>Instagram</b>. <b>Hiketop</b> - отдельная, неофициальная группа разработчиков, не являющаяся частью <b>Instagram</b>, не сотрудничающая с <b>Instagram</b> и не несущая ответственность за политику и действия <b>Instagram</b>".
+
+ 12. Признание в соответствии с действующим законодательством какого-либо положения настоящего Пользовательского соглашения недействительным или не подлежащим исполнению не влечет недействительности или неисполнимости иных положений Пользовательского соглашения.
+
+ 13. Для получения объективной и непротиворечивой информации в Приложении, Пользователь соглашается предоставить правдивую, точную и полную информацию о себе по вопросам, предлагаемым в Формах обратной связи, и поддерживать эту информацию в актуальном состоянии.
+
+ 14. "<b>Hiketop</b>" предупреждают, что в случае исключительно автоматизированной обработки персональных данных они не несут ответственности за правильность и достоверность вводимых Пользователем персональных данных, а также принятые Пользователем решения и за возникшие в связи с этим юридические последствия.
+
+ 15. "<b>Hiketop</b>" оставляет за собой право в любой момент полностью или частично ограничить доступ Пользователя к сервисам приложения без объяснения причины.
+
+ 16. "<b>Hiketop</b>" не несет никакой ответственности за действия пользователя в приложении и за их последствия.
+
+ "</string>
+    <string name="app_terms_of_service_title">Пользовательское соглашение</string>
+    <string name="app_terms_of_service_warning">Сначала необходимо принять пользовательское соглашение!</string>
+    <string name="common_google_play_services_enable_button">Включить</string>
+    <string name="common_google_play_services_enable_text">Для работы приложения \"%1$s\" требуется включить сервисы Google Play.</string>
+    <string name="common_google_play_services_enable_title">Включите сервисы Google Play</string>
+    <string name="common_google_play_services_install_button">Установить</string>
+    <string name="common_google_play_services_install_text">Для работы приложения \"%1$s\" требуется установить сервисы Google Play.</string>
+    <string name="common_google_play_services_install_title">Установите сервисы Google Play</string>
+    <string name="common_google_play_services_notification_channel_name">Доступность сервисов Google Play</string>
+    <string name="common_google_play_services_notification_ticker">Ошибка сервисов Google Play</string>
+    <string name="common_google_play_services_unknown_issue">Приложению \"%1$s\" не удается подключиться к сервисам Google Play. Повторите попытку.</string>
+    <string name="common_google_play_services_unsupported_text">Для работы с приложением \"%1$s\" требуются сервисы Google Play. Они не поддерживаются на вашем устройстве.</string>
+    <string name="common_google_play_services_update_button">Обновить</string>
+    <string name="common_google_play_services_update_text">Чтобы запустить приложение \"%1$s\", обновите сервисы Google Play.</string>
+    <string name="common_google_play_services_update_title">Обновите сервисы Google Play</string>
+    <string name="common_google_play_services_updating_text">Сервисы Google Play, необходимые для работы приложения \"%1$s\", в настоящий момент обновляются.</string>
+    <string name="common_google_play_services_wear_update_text">Версия сервисов Google Play устарела. Они автоматически обновятся в ближайшее время.</string>
+    <string name="common_open_on_phone">Открыть на телефоне</string>
+    <string name="common_signin_button_text">Войти</string>
+    <string name="common_signin_button_text_long">Войти через аккаунт Google</string>
+    <string name="copied">Скопировано</string>
+    <string name="creating">Создание…</string>
+    <string name="crystals">Кристаллы</string>
+    <string name="days">Дней</string>
+    <string name="dialog_cancel">Закрыть</string>
+    <string name="dialog_ok">Да</string>
+    <string name="dialog_please_wait">Выполнение…</string>
+    <string name="dialog_title_attention">Сообщение!</string>
+    <string name="dlg_authentication_help_message">\u0009Авторизация в нашем приложении происходит через встроенный браузер, мы не храним и не используем ваши логин и пароль.&lt;br />&lt;br />\u0009Чтобы попасть в приложение войдите на свою страницу и нажмите кнопку <b>\"Я ВОШЕЛ, ДАЛЕЕ\"</b>.&lt;br />&lt;br />\u0009Если у вас возникнут проблемы - напишите нам на почту.</string>
+    <string name="dlg_authentication_help_title">Как авторизоваться?</string>
+    <string name="dlg_follow_order_other_user_attention">Заказы на других пользователей стоят дороже, для собственных аккаунтов используйте \"связку\" [emoji:WINKING_FACE]</string>
+    <string name="dlg_follow_order_snackbar_action">Открыть</string>
+    <string name="dlg_follow_order_snackbar_text_created">Заказ создан!</string>
+    <string name="dlg_gift_code_reward_crystals">Кристаллов</string>
+    <string name="dlg_gift_code_reward_karma">Кармы</string>
+    <string name="dlg_gift_code_reward_premium">Премиум</string>
+    <string name="dlg_gift_code_reward_premium_pattern">[amount]д</string>
+    <string name="dlg_gift_code_reward_slots">Слотов</string>
+    <string name="dlg_gift_code_reward_subtitle">Мы рады, что вы используете наше приложение[emoji:FACE_THROWING_KISS]</string>
+    <string name="dlg_gift_code_reward_title">Подарок получен!</string>
+    <string name="dlg_instagram_post_action_get_likes">Лайков за [amount] [icon]</string>
+    <string name="dlg_instagram_post_action_get_views">Просмотров за [amount] [icon]</string>
+    <string name="dlg_instagram_post_action_open_orders">Открыть</string>
+    <string name="dlg_instagram_post_create_order_btn">Получить за [price] [icon]</string>
+    <string name="dlg_instagram_post_likes_order_created_msg">Заказ создан!</string>
+    <string name="dlg_instagram_post_transfers_advice_title">Заказы на других пользователей стоят дороже, используйте [link]передачу кристаллов[/link].</string>
+    <string name="dlg_instagram_post_views_order_created_msg">Заказ создан!</string>
+    <string name="dlg_instagram_user_followers_title">Подписчиков</string>
+    <string name="dlg_instagram_user_following_title">Подписок</string>
+    <string name="dlg_instagram_user_posts_title">Постов</string>
+    <string name="dlg_need_add_app_to_whitelist_message">\u0009Заработок кристаллов может прекращатся, когда телефон находится в спящем режиме. Чтобы разрешить приложению полноценно работать в фоне, его нужно добавить в список исключений.</string>
+    <string name="dlg_need_add_app_to_whitelist_negative_button">Не хочу</string>
+    <string name="dlg_need_add_app_to_whitelist_positive_button">Далее</string>
+    <string name="dlg_need_add_app_to_whitelist_title">Могут быть проблемы при работе в фоне</string>
+    <string name="dlg_search_deceivers_direction_title">Порядок проверки подписчиков</string>
+    <string name="dlg_stories_order_action_btn">Просмотров за %1$d [icon]</string>
+    <string name="dlg_stories_order_msg_created">Заказ на просмотры историй создан!</string>
+    <string name="dlg_stories_order_stories_count_title">Кол-во историй:</string>
+    <string name="dlg_stories_order_switch_all_title">Все (%1$d)</string>
+    <string name="dlg_stories_order_switch_first_title">Первая</string>
+    <string name="dlg_stories_order_switch_max_title">Макс (%1$d)</string>
+    <string name="dlg_stories_order_transfers_advice_title">Заказы на других пользователей могут быть дороже, используйте [link]передачу кристаллов[/link].</string>
+    <string name="dlg_title_help">Help</string>
+    <string name="dlg_transfers_help_message">"\u0009Вы можете передавать кристаллы только тем пользователям, которые хотя бы раз авторизовывались в приложении. Для этого впишите ссылку на страницу пользователя и желаемое кол-во кристаллов.
+
+\u0009Комиссия будет списана с получателя.
+
+\u0009Обратите внимание, что стоимость передачи кристаллов на аккаунты в \"связке\" значительно выгоднее."</string>
+    <string name="dlg_transfers_help_title">Передача кристаллов</string>
+    <string name="done">Готово</string>
+    <string name="download_photo_started">Загрузка фото начата…</string>
+    <string name="download_video_started">Загрузка видео начата…</string>
+    <string name="drawer_menu_item_contact_mail">Написать на почту</string>
+    <string name="drawer_menu_item_contact_telegram">Телеграм (поддержка)</string>
+    <string name="drawer_menu_item_dev_settings">Дев-тулзы</string>
+    <string name="drawer_menu_item_extra_crystals">Подарочный код</string>
+    <string name="drawer_menu_item_help">FAQ</string>
+    <string name="drawer_menu_item_logs">Логи</string>
+    <string name="drawer_menu_item_partnership">Партнерство</string>
+    <string name="drawer_menu_item_punish_deceivers">Наказание отписчиков</string>
+    <string name="drawer_menu_item_referral_system">Рефералка</string>
+    <string name="drawer_menu_item_settings">Настройки</string>
+    <string name="drawer_menu_item_shop">Покупки</string>
+    <string name="drawer_menu_item_transfers">Передача кристаллов</string>
+    <string name="drawer_menu_terms_of_service_title">"Пользуясь этой программой, вы принимаете
+"<u>Соглашение пользователя</u></string>
+    <string name="drawer_panel_btn_karma_minus_subtitle">Необходимо восстановить</string>
+    <string name="drawer_panel_btn_karma_plus_subtitle">Обменивай на кристаллы</string>
+    <string name="drawer_panel_btn_premium_off_subtitle">Получайте больше</string>
+    <string name="drawer_panel_btn_premium_on_subtitle">Нажмите, чтобы продлить</string>
+    <string name="expand_button_title">Дополнительно</string>
+    <string name="faq">Помощь</string>
+    <string name="frf_attach_account_to_bundle_action_accept">Привязять</string>
+    <string name="frf_attach_account_to_bundle_action_decline">Отмена</string>
+    <string name="frf_attach_account_to_bundle_message">Этот аккаунт будет добавлен к вашей связке, вы всегда сможете заменить его на другой.</string>
+    <string name="frf_settings_pref_category_title_other">Остальное</string>
+    <string name="frg_available_referrals_action_send">Отправить</string>
+    <string name="frg_available_referrals_added_at_pattern">Приглашен(а) в [time]</string>
+    <string name="frg_available_referrals_gained_pattern"><b>[percent]%</b> от [amount]</string>
+    <string name="frg_available_referrals_item_left_days_pattern">Осталось [amount] дней</string>
+    <string name="frg_available_referrals_item_profit_pattern">[amount]</string>
+    <string name="frg_available_referrals_section_header_today">За сегодня</string>
+    <string name="frg_available_referrals_toolbar_title">Рефералы</string>
+    <string name="frg_bundle_accounts_buy_slot_for_crystals_title">Взять за</string>
+    <string name="frg_bundle_accounts_buy_slot_for_money_title">Купить за</string>
+    <string name="frg_bundle_accounts_hint">У вас нет свободных слотов (мест) для дополнительных аккаунтов, но вы можете приобрести еще [emoji:WINKING_FACE]</string>
+    <string name="frg_bundle_accounts_item_option_forget">Выйти из аккаунта</string>
+    <string name="frg_bundle_accounts_item_option_open">Открыть в Instagram</string>
+    <string name="frg_bundle_accounts_item_option_unlink">Освободить слот</string>
+    <string name="frg_bundle_accounts_slot_unauthorized_title_many">"слотов
+доступно"</string>
+    <string name="frg_bundle_accounts_slot_unauthorized_title_one_0">один</string>
+    <string name="frg_bundle_accounts_slot_unauthorized_title_one_1">"слот
+доступен"</string>
+    <string name="frg_bundle_dialog_msg_buy_slot_for_crystals">Со счета будет снято [amount][icon]</string>
+    <string name="frg_bundle_snackbar_msg_slot_bought">Куплен!</string>
+    <string name="frg_crystals_goods_action_confirm">Получить</string>
+    <string name="frg_dashboard_card_extra_tasks_summary">"Ручной
+заработок"</string>
+    <string name="frg_dashboard_card_extra_tasks_summary_full">Выполняй простые задания, чтобы получить карму или кристаллы.</string>
+    <string name="frg_dashboard_card_extra_tasks_title">Задания</string>
+    <string name="frg_dashboard_card_likes_tasks_summary">"Ручной заработок (лучший способ)
+Лайкай и получай награду."</string>
+    <string name="frg_dashboard_card_likes_tasks_summary_full">Ручной заработок (лучший способ), лайкай и получай награду.</string>
+    <string name="frg_dashboard_card_likes_tasks_title">Лайки</string>
+    <string name="frg_dashboard_card_views_tasks_summary">"Ручной
+заработок"</string>
+    <string name="frg_dashboard_card_views_tasks_summary_full">Смотри видео других пользователей и получай награды.</string>
+    <string name="frg_dashboard_card_views_tasks_title">Просмотры</string>
+    <string name="frg_dashboard_daily_bonus_active_subtitle">Купи <b>Premium</b> и увеличь свой дневной бонус!!!</string>
+    <string name="frg_dashboard_daily_bonus_active_title">Жми и забирай</string>
+    <string name="frg_dashboard_daily_bonus_gotten_msg">Получено [crystals] [crystals_icon] и [karma] [karma_icon] :))</string>
+    <string name="frg_dashboard_daily_bonus_passive_subtitle">Купи <b>Premium</b> и получай больше!</string>
+    <string name="frg_dashboard_daily_bonus_passive_title">До следующего</string>
+    <string name="frg_dashboard_daily_bonus_progress_title">Получение…</string>
+    <string name="frg_dashboard_gift_code_hint">Вписать тут</string>
+    <string name="frg_dashboard_gift_code_info_body">Это купон, который можно обменять на кристаллы. Промокоды вы можете получить только от разработчиков приложения. Детальнее в наших социальных сетях и канале Telegram (ссылки можно найти в меню).</string>
+    <string name="frg_dashboard_gift_code_info_title">Что такое промокод?</string>
+    <string name="frg_dashboard_gift_code_reward_msg">Получено [crystals] [crystals_icon] :))</string>
+    <string name="frg_dashboard_gift_code_title">"Промо
+Код"</string>
+    <string name="frg_dashboard_news_stub_title">Новостей пока нет [emoji:THINKING_FACE]</string>
+    <string name="frg_dashboard_private_message_today_time_pattern">Сегодня в [time]</string>
+    <string name="frg_dashboard_telegram_bot_link_action">ПОЛУЧИТЬ +[amount] [icon]</string>
+    <string name="frg_dashboard_telegram_bot_link_title">Привяжи свой Telegram аккаунт</string>
+    <string name="frg_dashboard_telegram_bot_linked_action">Открыть</string>
+    <string name="frg_dashboard_telegram_bot_linked_title">Получай больше кристаллов с Telegram ботом</string>
+    <string name="frg_dashboard_title">Дашборд</string>
+    <string name="frg_energy_statistics_header_title_0">Действие</string>
+    <string name="frg_energy_statistics_header_title_1">Результат</string>
+    <string name="frg_energy_statistics_item_total">Всего</string>
+    <string name="frg_energy_statistics_no_items_action">Начать</string>
+    <string name="frg_energy_statistics_no_items_msg">Нет изменений кармы, начните получать ее вместе с кристаллами ;))</string>
+    <string name="frg_energy_statistics_subtitle">За последнюю неделю: %s кармы</string>
+    <string name="frg_extra_tasks_reward_msg">Получено [amount] [icon]!</string>
+    <string name="frg_extra_tasks_screen_hint">Кристаллы и карма за задания могут быть начислены не сразу. Внимательно читайте условия к заданию, после выполнения попробуйте обновить свой счет (свайпом вниз)!</string>
+    <string name="frg_extra_tasks_tapjoy_action_begin">Начать</string>
+    <string name="frg_extra_tasks_tapjoy_action_loading">Загрузка…</string>
+    <string name="frg_extra_tasks_tapjoy_crystals_description">Получай больше кристаллов для создания заказов</string>
+    <string name="frg_extra_tasks_tapjoy_crystals_title">Выполняй задания за кристаллы</string>
+    <string name="frg_extra_tasks_tapjoy_karma_description">Восстанавливай или зарабатывай карму для обмена на кристаллы</string>
+    <string name="frg_extra_tasks_tapjoy_karma_title">Выполняй задания за карму</string>
+    <string name="frg_gift_code_edt_hint">Введите сюда</string>
+    <string name="frg_gift_code_links_header">Мы в социальных сетях</string>
+    <string name="frg_gift_code_summary">Подарочные коды можно получить только через страницы наших социальных сетей. Мы публикуем их по праздникам, раздаем как призы в розыгрышах, награждаем активных пользователей. Подписывайтесь на наши социальные сети и вы их не упустите!</string>
+    <string name="frg_gift_code_title">Обменивай подарочные коды на кристаллы, карму, слоты…</string>
+    <string name="frg_gift_code_toolbar_title">Подарочный код</string>
+    <string name="frg_gift_code_use_action">Использовать код</string>
+    <string name="frg_karma_days_header_control">Управление</string>
+    <string name="frg_karma_days_header_growth">Прирост</string>
+    <string name="frg_karma_days_header_type">Тип</string>
+    <string name="frg_karma_days_stub_action">Начать заработок</string>
+    <string name="frg_karma_days_stub_title">За последние дни кармы не прибавилось, потяните вниз, чтобы обновить или начните зарабатывать ее вместе с кристаллами :)</string>
+    <string name="frg_karma_get_karma_for_tasks">Получить карму за задания</string>
+    <string name="frg_karma_get_karma_for_views">Получить карму за просмотры</string>
+    <string name="frg_karma_statistics_action_title_exchange">Обменять на [amount] [icon]</string>
+    <string name="frg_karma_statistics_action_title_none">Недостаточно для обмена</string>
+    <string name="frg_karma_statistics_action_title_restore">Восстановить за [amount] [icon]</string>
+    <string name="frg_karma_statistics_msg_exchanged">Получено [amount] [icon]!</string>
+    <string name="frg_karma_statistics_msg_restored">Карма восстановлена, не отписывайтесь больше [emoji:WINKING_FACE]</string>
+    <string name="frg_karma_statistics_title_your_karma">Ваша карма:</string>
+    <string name="frg_karma_summary_crystals_to_karma">Ваша карма отрицательная. Теперь вы не можете создавать заказы и тратить свои кристаллы пока не восстановите ее. Приблизительное время для восстановления [amount] день/дней.</string>
+    <string name="frg_karma_summary_karma_to_crystals">Вы можете обменивать карму на кристаллы!</string>
+    <string name="frg_karma_summary_none">Вы можете обменивать карму на кристаллы!</string>
+    <string name="frg_karma_toolbar_title">Карма</string>
+    <string name="frg_manual_view_tasks_action_confirming">Получение…</string>
+    <string name="frg_manual_view_tasks_action_none">…</string>
+    <string name="frg_manual_view_tasks_action_progress">Выполнение задания…</string>
+    <string name="frg_manual_view_tasks_action_retry">Повторить поиск</string>
+    <string name="frg_manual_view_tasks_action_reward">Забрать [amount] [icon]</string>
+    <string name="frg_manual_view_tasks_action_view">Смотреть +[amount] [icon]</string>
+    <string name="frg_manual_view_tasks_content_stub_msg">"Задание получено,
+можете начать выполнение!"</string>
+    <string name="frg_manual_view_tasks_progress_msg">Поиск нового задания…</string>
+    <string name="frg_manual_view_tasks_retry_msg">"Не удалось найти задание,
+повторите поиск…"</string>
+    <string name="frg_manual_view_tasks_toolbar_title">Заработок</string>
+    <string name="frg_orders_complete_done_title">Получено</string>
+    <string name="frg_orders_incomplete_follow_order_of">из</string>
+    <string name="frg_orders_incomplete_likes_order_of">из</string>
+    <string name="frg_orders_likes_order_item_invalid_title">Невалидный</string>
+    <string name="frg_orders_section_header_complete_orders">Выполненные</string>
+    <string name="frg_orders_section_header_complete_orders_action">Очистить</string>
+    <string name="frg_orders_section_header_incomplete_orders_followers">На подписчиков</string>
+    <string name="frg_orders_section_header_incomplete_orders_likes">На лайки</string>
+    <string name="frg_orders_section_header_incomplete_orders_views">На просмотры</string>
+    <string name="frg_orders_stub_action">Создать</string>
+    <string name="frg_orders_stub_title">Список заказов пуст, потяните, чтобы обновить [emoji:SMILING_FACE_WITH_OPEN_MOUTH_COLD_SWEAT]</string>
+    <string name="frg_orders_title">Заказы</string>
+    <string name="frg_partnership_action">Стать партнером</string>
+    <string name="frg_partnership_description">Ты блоггер или известная личность? Тогда тебе сюда! Не трать свое время на заработок кристаллов, присоединяйся к нам[emoji:RAISED_FIST] и получай их куда проще и быстрее [emoji:WINKING_FACE]</string>
+    <string name="frg_partnership_request_comment_hint">Комментарий (дополнительно)</string>
+    <string name="frg_partnership_request_comment_hint_required_msg">Вам следует указать ссылку на ваш аккаунт (полную ссылку)!</string>
+    <string name="frg_partnership_request_social_network_title">Социальная сеть:</string>
+    <string name="frg_partnership_request_toolbar_title">Ваша информация</string>
+    <string name="frg_partnership_request_your_link_hint">Ваша полная ссылка (обязательно)</string>
+    <string name="frg_partnership_request_your_link_hint_pattern">Полная [social_link] ссылка (обязательно)</string>
+    <string name="frg_partnership_title">Будь нашим партнером [emoji:THUMBS_UP]</string>
+    <string name="frg_partnership_toolbar_title">Сотрудничество</string>
+    <string name="frg_premium_goods_default_status_item_subtitle">У вас нет премиума :(</string>
+    <string name="frg_premium_goods_default_status_item_title">Эх…</string>
+    <string name="frg_premium_goods_premium_status_item_subtitle_pattern">[amount] [days]</string>
+    <string name="frg_premium_goods_premium_status_item_title">Истекает через</string>
+    <string name="frg_premium_goods_section_0_title">Что дает премиум?</string>
+    <string name="frg_premium_goods_section_1_title">Пакеты</string>
+    <string name="frg_profile_btn_delete_order">Удалить заказ</string>
+    <string name="frg_profile_btn_increase_order">Пополнить заказ</string>
+    <string name="frg_profile_btn_invalid_order">Почему заказ остановлен?</string>
+    <string name="frg_profile_no_stories_for_order_action">В Инсту</string>
+    <string name="frg_profile_no_stories_for_order_title">Нет историй для заказа просмотров!</string>
+    <string name="frg_profile_stub_title">Список постов пуст, потяните вниз, чтобы обновить ;)</string>
+    <string name="frg_profile_swap_url_hint">Ник в инсте</string>
+    <string name="frg_profile_title">Посты</string>
+    <string name="frg_profile_tutorial_description_0">Информация о кол-ве подписчиков и тд.</string>
+    <string name="frg_profile_tutorial_description_1">Увеличивайте свою аудиторию</string>
+    <string name="frg_profile_tutorial_description_2">Оживите свои публикации</string>
+    <string name="frg_profile_tutorial_title_0">Просмотр профиля</string>
+    <string name="frg_profile_tutorial_title_1">Заказать подписчиков</string>
+    <string name="frg_profile_tutorial_title_2">Заказать комментарии</string>
+    <string name="frg_referral_code_copied_msg">Скопировано!</string>
+    <string name="frg_referral_code_description">Приглашайте друзей по вашему реферальному коду и получайте [amount] кристаллов от их заработка и покупок!</string>
+    <string name="frg_referral_code_toolbar_title">Реферальный код</string>
+    <string name="frg_referral_title_tap_to_copy">Скопировать</string>
+    <string name="frg_referrals_system_bottom_description">Реферал доступен [days] день/дней и приносит [percent] кристаллов от своего заработка и покупок. Вы наблюдаете статистику за последние [amount] дней.</string>
+    <string name="frg_referrals_system_chart_stub">• Нет данных</string>
+    <string name="frg_referrals_system_common_statistics_active">Активность</string>
+    <string name="frg_referrals_system_common_statistics_crystals">Кристаллов</string>
+    <string name="frg_referrals_system_common_statistics_days_postfix">Дней</string>
+    <string name="frg_referrals_system_common_statistics_header_title">Общая статистика</string>
+    <string name="frg_referrals_system_common_statistics_invited">Приглашено</string>
+    <string name="frg_referrals_system_common_statistics_referrals">Живых реф.</string>
+    <string name="frg_referrals_system_daily_statistics_header_title">Статистика по дням</string>
+    <string name="frg_referrals_system_referral_code_title">Реферальный код:</string>
+    <string name="frg_referrals_system_reward_complete_timer_title">осталось времени %1$s</string>
+    <string name="frg_referrals_system_reward_complete_today_pattern">Получить за [insert]</string>
+    <string name="frg_referrals_system_reward_complete_today_pattern_insert">Вчера</string>
+    <string name="frg_referrals_system_reward_header_title">Награда</string>
+    <string name="frg_referrals_system_reward_msg_1">Получено [crystals] [crystals_icon] ;)</string>
+    <string name="frg_referrals_system_reward_msg_2">Получено [crystals] [crystals_icon] и [karma] [karma_icon] ;)</string>
+    <string name="frg_referrals_system_reward_progress_timer_title">до получения %1$s</string>
+    <string name="frg_referrals_system_reward_progress_today_pattern">Собрано за [insert]</string>
+    <string name="frg_referrals_system_reward_progress_today_pattern_insert">Сегодня</string>
+    <string name="frg_referrals_system_stub_action">Назад</string>
+    <string name="frg_referrals_system_stub_title">Ваши рефералы закончились, но вы всегда можете пригласить еще :)</string>
+    <string name="frg_referrals_system_toolbar_title">Рефералка</string>
+    <string name="frg_reward_for_specifying_btn_next">Получить и продолжить</string>
+    <string name="frg_reward_for_specifying_description">Приглашай друзей используя свой реферальный код и ежедневно получай бонусы!</string>
+    <string name="frg_reward_for_specifying_subtitle">вашего пригласителя</string>
+    <string name="frg_reward_for_specifying_title">Спасибо от</string>
+    <string name="frg_server_authentication_progress_state_check_health">Проверка статуса авторизации…</string>
+    <string name="frg_server_authentication_progress_state_checking_status">Подтверждение заявки…</string>
+    <string name="frg_server_authentication_progress_state_loading_accounts_bundle_state">Проверка наличия связки…</string>
+    <string name="frg_server_authentication_progress_state_loading_data">Загрузка необходимых данных…</string>
+    <string name="frg_server_authentication_progress_state_loading_server_properties">Загрузка параметров авторизации…</string>
+    <string name="frg_server_authentication_progress_state_sending_login_request">Отправка заявки на авторизацию…</string>
+    <string name="frg_settings_pref_category_title_account">Аккаунт</string>
+    <string name="frg_settings_pref_item_app_version_summary">[version] ([general_engine_version]/[gaining_engine_version])</string>
+    <string name="frg_settings_pref_item_app_version_title">Версия приложения</string>
+    <string name="frg_settings_pref_item_clear_cookie_on_logout_summary">Не выключайте, если не знаете, что это такое!</string>
+    <string name="frg_settings_pref_item_clear_cookie_on_logout_title">Очистить куки при выходе</string>
+    <string name="frg_settings_pref_item_logout_all_summary">Будет очищен кеш приложения</string>
+    <string name="frg_settings_pref_item_logout_all_title">Выход со всех аккаунтов</string>
+    <string name="frg_settings_pref_item_reauth_all_summary">Обновления всех данных приложения</string>
+    <string name="frg_settings_pref_item_reauth_all_title">Переавторизовать все аккаунты</string>
+    <string name="frg_settings_pref_item_reset_system_cache_summary">Все константы логики будут выкачаны автоматически</string>
+    <string name="frg_settings_pref_item_reset_system_cache_title">Сбросить константы</string>
+    <string name="frg_shop_stub_action">Открыть сайт</string>
+    <string name="frg_shop_stub_description">Мы поддерживаем: MasterCard, Visa, Apple Pay, Samsung Pay, Qiwi, WebMoney и множество других.</string>
+    <string name="frg_shop_stub_title">Покупай через сайт!</string>
+    <string name="frg_shop_toolbar_title">Магазин</string>
+    <string name="frg_sign_in_btn_contact_us">Проблемы со входом?</string>
+    <string name="frg_sign_in_btn_sign_in">Войти</string>
+    <string name="frg_sign_in_logo_title_1">@string/application_name</string>
+    <string name="frg_sign_in_logo_title_2">Все что нужно</string>
+    <string name="frg_sign_in_logo_title_3">В одно нажатие</string>
+    <string name="frg_slots_products_section_0_title">Чем полезны слоты?</string>
+    <string name="frg_slots_products_section_1_title">Паки</string>
+    <string name="frg_slots_status_caption">"Ваши
+слоты"</string>
+    <string name="frg_slots_status_has_free_slots_title">Свободных слотов</string>
+    <string name="frg_slots_status_has_no_free_slots_subtitle">Вы можете приобрести еще…</string>
+    <string name="frg_slots_status_has_no_free_slots_title">Все слоты заняты ;(</string>
+    <string name="frg_specify_inviter_btn_action">Подтвердить</string>
+    <string name="frg_specify_inviter_btn_skip">Пропустить</string>
+    <string name="frg_specify_inviter_caption">Пользователь приложения может поделиться с вами реферальным кодом. Введите реферальный код и получите бонус.</string>
+    <string name="frg_specify_inviter_edt_title">Код сюда</string>
+    <string name="frg_specify_inviter_title">Есть реферальный код?</string>
+    <string name="frg_suspects_check_limit_message_pattern">Следующая проверка будет доступна через %1$s.</string>
+    <string name="frg_suspects_check_limit_title">Упс, слишком часто :(</string>
+    <string name="frg_suspects_counter1_title">"проверено
+подозреваемых"</string>
+    <string name="frg_suspects_counter2_title">"найдено
+отписчиков"</string>
+    <string name="frg_suspects_deceivers_section_header_title">Найденные отписчики ([count])</string>
+    <string name="frg_suspects_deceivers_stub">Запустите поиск</string>
+    <string name="frg_suspects_deceivers_stub_title">Запустите поиск, чтобы найти своих отписчиков. Проверяются только подписчики этого аккаунта, заказы на другие аккаунты нужно проверять на тех же аккаунтах [emoji:THINKING_FACE]</string>
+    <string name="frg_suspects_options_menu_item_reorder">Порядок проверки</string>
+    <string name="frg_suspects_options_menu_item_reset_cache">Сбросить кэш</string>
+    <string name="frg_suspects_panel_title">Получено кармы:</string>
+    <string name="frg_suspects_progress_sync_title">Синхронизация…</string>
+    <string name="frg_suspects_snackbar_msg_no_suspects_to_check">Все подписчики, полученные за последнее время, уже проверены!</string>
+    <string name="frg_suspects_snackbar_msg_not_found_deceivers">Отписчиков не найдено!</string>
+    <string name="frg_suspects_toolbar_title">Отписчики</string>
+    <string name="frg_suspects_tutorial_0_description">Отбери карму у нарушителей!</string>
+    <string name="frg_suspects_tutorial_0_title">Найди отписчиков!</string>
+    <string name="frg_transfer_bookmark_add_title">"Добавить
+закладку"</string>
+    <string name="frg_transfer_btn_send">Отпр.</string>
+    <string name="frg_transfer_bundle_advice_title">Комиссия при передачи кристаллов между аккаунтами в связке всего [commission]%.</string>
+    <string name="frg_transfer_fave_dlg_item_remove">Удалить</string>
+    <string name="frg_transfer_item_pattern_in">Получено [count] [icon] от [link]</string>
+    <string name="frg_transfer_item_pattern_out">Отправлено [count] [icon] - [link]</string>
+    <string name="frg_transfer_items_header_send_to">Отправить на аккаунт</string>
+    <string name="frg_transfer_items_header_transaction_history_l">История транзакций</string>
+    <string name="frg_transfer_msg_fave_added">Пользователь добавлен!</string>
+    <string name="frg_transfer_msg_field_empty">Сначала введите никнейм!</string>
+    <string name="frg_transfer_msg_send">Передано!</string>
+    <string name="frg_transfer_short_link_hint">Имя пользователя</string>
+    <string name="frg_transfer_toolbar_title">Передача кристаллов</string>
+    <string name="frg_transfer_transactions_empty">Тут будет отображен список транзакций. Потяните вниз, что бы обновить)))</string>
+    <string name="frg_unfollow_attention_allow">Принять</string>
+    <string name="frg_unfollow_attention_allow_pattern">Принять (Нажать [amount] раз)</string>
+    <string name="frg_unfollow_attention_summary">Вы разрешаете приложению подписываться на других пользователей за кристаллы. Если вы отпишитесь, то потеряете карму. С отрицательной кармой вы не сможете создавать заказы и тратить свои кристаллы. За восстановление вы заплатите больше чем получите попытавшись обмануть нас.</string>
+    <string name="frg_unfollow_attention_title">Мы наказываем за отписки!</string>
+    <string name="frg_unfollow_attentions_action_hide_additional_ways">Другие варианты (скрыть)</string>
+    <string name="frg_unfollow_attentions_action_show_additional_ways">Другие варианты (показать)</string>
+    <string name="frg_unfollow_attentions_additional_message">Хотите зарабатывать больше кристаллов[emoji:SMILING_FACE_WITH_HALO], но не хотите подписываться на других пользователей? Создайте [link:1]\"Связку аккаунтов\"[/link:1] и используйте сразу несколько аккаунтов, переключаясь между ними в 1 клик. Это удобно и выгодно, если вы хотите зарабатывать кристаллы на одном аккаунте и тратить на основном, ведь комиссия за передачу кристаллов всего [commission]%! Так же можете заработать больше кристаллов выполняя [link:2]ручные задания[/link:2][emoji:WINKING_FACE].</string>
+    <string name="frg_web_view_auth_btn_done_authentication">Далее</string>
+    <string name="frg_web_view_auth_btn_repeat">Повторить</string>
+    <string name="frg_web_view_auth_button">Я вошел, далее</string>
+    <string name="frg_web_view_auth_dlg_back_pressed_title">Точно хотите выйти?</string>
+    <string name="frg_web_view_auth_dlg_complete_message">Вы уверены, что авторизовались в своем профиле Instagram?</string>
+    <string name="frg_web_view_auth_dlg_complete_title">Вход в приложение</string>
+    <string name="frg_web_view_auth_menu_item_title_help">Помощь</string>
+    <string name="frg_web_view_auth_menu_item_title_reset">Сброс</string>
+    <string name="frg_web_view_auth_msg_load_constants">Загрузка констант, ожидайте…</string>
+    <string name="frg_web_view_auth_msg_load_constants_error">Ошибка соединения, проверьте подключение к интернету и повторите снова!</string>
+    <string name="frg_web_view_auth_msg_page_not_loaded_yet">Страница еще не загружена</string>
+    <string name="frg_web_view_auth_title">Вход</string>
+    <string name="gaining_service_message_notification_title">Важно!</string>
+    <string name="gaining_service_notification_detailed_text">Уже получено [amount] кристаллов</string>
+    <string name="gaining_service_notification_detailed_title">Добыча кристаллов (@[short_link])</string>
+    <string name="gaining_service_notification_gotten_crystals">Получено кристаллов:</string>
+    <string name="gaining_service_notification_text">Не убирайте это уведомление!</string>
+    <string name="gaining_service_notification_title">Фоновая работа</string>
+    <string name="gaining_service_unauthorized_notification_msg">После входа вы сможете продолжить получать кристаллы)))</string>
+    <string name="gaining_service_unauthorized_notification_title">Необхожимо войти в аккаунт!</string>
+    <string name="get_smt">Получить</string>
+    <string name="gs_notification_message_title">Сообщение!</string>
+    <string name="gs_notification_msg_not_authenticated_message">Приложение не может выполнять задания</string>
+    <string name="gs_notification_msg_not_authenticated_title">Нужно авторизоваться!</string>
+    <string name="gs_notification_msg_smt_went_wrong_message">Убедитесь, что проблема не в сайте</string>
+    <string name="gs_notification_msg_smt_went_wrong_title">Произошла внутрення ошибка!</string>
+    <string name="hide_more">Скрыть</string>
+    <string name="hours">Часов</string>
+    <string name="hours_short_postfix">ч</string>
+    <string name="karma">Карма</string>
+    <string name="loading">Загрузка…</string>
+    <string name="manual_gaining_title">Ручной заработок</string>
+    <string name="minutes">Минут</string>
+    <string name="minutes_short_postfix">м</string>
+    <string name="msg_added">Добавлено!</string>
+    <string name="msg_background_work_already_improved">Работа в фоне уже улучшена!</string>
+    <string name="msg_connection_error">Ошибка соединения!</string>
+    <string name="msg_copied">Скопировано!</string>
+    <string name="msg_done">Готово!</string>
+    <string name="msg_not_enough_crystals">Не хватает кристаллов!</string>
+    <string name="msg_operation_success">Удачно!</string>
+    <string name="msg_purchases_action_repeat">Повторить</string>
+    <string name="msg_purchases_billing_disconnected">Пропала связь с Google Play, проверьте подключение к интернету и повторите еще раз!</string>
+    <string name="msg_purchases_billing_unavailable">Покупки недоступны, проверьте, что вы вошли в свой гугл аккаунт!</string>
+    <string name="msg_purchases_connection_error_description">Тут должен быть список покупок. Проверьте подключение к интернету и повторите снова :)</string>
+    <string name="msg_purchases_connection_error_title">"Упс…
+не удалось соединиться."</string>
+    <string name="msg_purchases_feature_not_supported">Покупки не поддерживаются на вашем устройстве!</string>
+    <string name="msg_purchases_item_unavailable">Этот товар в данный момент недоступен для покупки!</string>
+    <string name="msg_purchases_pm_unavailable_description">Не удалось подключиться к PlayMarket, проверьте подключение к интернету, убедитесь, что вы вошли в свой Google аккаунт и повторите :(</string>
+    <string name="msg_purchases_pm_unavailable_title">"Эх…
+ужасное недоразумение."</string>
+    <string name="msg_purchases_service_unavailable">Покупки недоступны, проверьте, что вы вошли в свой гугл аккаунт!</string>
+    <string name="msg_purchases_smth_went_wrong_description">"Упс…
+что-то пошло не так."</string>
+    <string name="msg_purchases_smth_went_wrong_title">"Упс…
+что-то пошло не так."</string>
+    <string name="msg_purchases_unavailable_description">Увы, но покупки на вашем устройстве не работают.</string>
+    <string name="msg_purchases_unavailable_title">"Эх…
+ужасное недоразумение."</string>
+    <string name="msg_reward_1">Получено [amount] [icon]!</string>
+    <string name="msg_saved">Сохранено!</string>
+    <string name="msg_something_went_wrong">Что-то пошло не так, сообщите нам об этом!</string>
+    <string name="msg_you_should_have_email_client">Для этого действия необходим почтовый клиент. Установите его, чтобы продолжить!</string>
+    <string name="ntf_earning_crystals_summary">Заработано суммарно %1$d кристаллов</string>
+    <string name="ntf_earning_crystals_title">Аккаунтов в работе: %1$d/%2$d</string>
+    <string name="ok">OK</string>
+    <string name="partnership_email_body_header">(Вы можете прикрепить дополнительные файлы, но не меняйте информацию ниже)</string>
+    <string name="permission_storage">Приложению необходим доступ к вашей галерее, чтобы уметь сохранять фото и видео.</string>
+    <string name="please_wait">Пожалуйста ожидайте…</string>
+    <string name="premium">Премиум</string>
+    <string name="profile_counter_title_followers">Подписчики</string>
+    <string name="profile_counter_title_following">Подписки</string>
+    <string name="profile_counter_title_posts">Посты</string>
+    <string name="profile_sdd_stories_views_action_btn">+ Просмотры историй</string>
+    <string name="rmsg_need_instagram_app_action">Скачать (PlayMarket)</string>
+    <string name="rmsg_need_instagram_app_message">Для продолжения у Вас должно быть установлено официальное приложение Instagram :)</string>
+    <string name="rmsg_need_instagram_app_title">Необходимо Instagram-приложение!</string>
+    <string name="s1">Сохранить изображение</string>
+    <string name="s2">Разрешить объявлению сохранить изображение в галерее?</string>
+    <string name="s3">Разрешить</string>
+    <string name="s4">Отклонить</string>
+    <string name="s5">Создать мероприятие</string>
+    <string name="s6">Разрешить объявлению создать мероприятие в календаре?</string>
+    <string name="s7">Тестовое объявление</string>
+    <string name="scr_add_fave_user_link_edt_hint">Введите Instagram ник</string>
+    <string name="scr_add_fave_user_toolbar_title">Новая закладка</string>
+    <string name="scr_reauth_content_message_apply">Сохранение данных, не закрывайте пожалуйста приложение…</string>
+    <string name="scr_reauth_content_message_setup">Восстановление данных, не закрывайте пожалуйста приложение…</string>
+    <string name="scr_top_tutorial_action_description">Стань популярным [emoji:FACE_THROWING_KISS][emoji:FACE_THROWING_KISS][emoji:FACE_THROWING_KISS]</string>
+    <string name="scr_top_tutorial_action_title">Получать подписчиков</string>
+    <string name="scr_top_tutorial_audience_description">Пользователи с этим языком будут подписываться на вас чаще [emoji:BLACK_SMILING_FACE]</string>
+    <string name="scr_top_tutorial_audience_title">Выбери свою аудиторию</string>
+    <string name="scr_top_tutorial_bookmarks_description">Даже тех, кто не использует это приложение [emoji:SMILING_FACE_WITH_SUN_GLASS]</string>
+    <string name="scr_top_tutorial_bookmarks_title">Поставить в ТОП друга</string>
+    <string name="scr_top_tutorial_time_description">Вы получаете подписчиков пока вы в ТОПе [emoji:BLACK_SMILING_FACE]</string>
+    <string name="scr_top_tutorial_time_title">Время в ТОПе</string>
+    <string name="search_menu_title">Поиск</string>
+    <string name="seconds">Секунд</string>
+    <string name="seconds_short_postfix">c</string>
+    <string name="send">Отправить</string>
+    <string name="service_foreground_notification_description">По завершению уведомление исчезнет.</string>
+    <string name="service_foreground_notification_ticker">Фоновая задача</string>
+    <string name="service_foreground_notification_title">Приложение работает в фоне</string>
+    <string name="service_views_complete_message">Вернитесь за наградой [icon]!</string>
+    <string name="service_views_notification_text">Не убирайте это уведомление пока задание не завершено!</string>
+    <string name="service_views_notification_ticker">Заработок</string>
+    <string name="service_views_notification_title">Выполнение задания</string>
+    <string name="service_views_preparing_message_proof_bookmark">Поставьте [bookmark] и дождитесь [alarm]…</string>
+    <string name="service_views_preparing_message_proof_like">Поставьте [like] и дождитесь [alarm]…</string>
+    <string name="service_views_timer_message">Осталось [amount] сек.</string>
+    <string name="show_more">Показать больше</string>
+    <string name="smd_title_0">Меню</string>
+    <string name="smd_title_1">Статистика</string>
+    <string name="smd_title_2">Связаться с нами</string>
+    <string name="snackbar_action_get_crystals">Получить</string>
+    <string name="snackbar_not_authorized_action">Перевойти</string>
+    <string name="snackbar_not_authorized_msg">Вы не авторизованы</string>
+    <string name="src_bought_products_stub_action">Накормить разработчиков</string>
+    <string name="src_bought_products_stub_description">"Разработчики тоже хотят кушать…
+Попробуйте обновите экран, если вы все же совершали покупки в нашем приложении ранее."</string>
+    <string name="src_bought_products_stub_title">"Ой…
+Вы еще не делали покупок [emoji:FACE_WITH_OPEN_MOUTH_COLD_SWEAT]"</string>
+    <string name="src_bought_products_toolbar_title">Мои покупки</string>
+    <string name="src_conf_top_ent_action_another">Поставить в ТОП</string>
+    <string name="src_conf_top_ent_action_self">Стать в ТОП</string>
+    <string name="src_conf_top_ent_title">Все верно?</string>
+    <string name="src_conf_top_ent_title_account">Аккаунт</string>
+    <string name="src_conf_top_ent_title_audience">Аудитория (язык)</string>
+    <string name="src_conf_top_ent_title_duration">Продолжительность</string>
+    <string name="src_conf_top_ent_title_price">Цена</string>
+    <string name="src_select_top_audience_title">Аудитоия</string>
+    <string name="src_select_top_target_user_action_add">Новая</string>
+    <string name="src_select_top_target_user_title">Ваши закладки</string>
+    <string name="src_top_banner_action">Проверить</string>
+    <string name="src_top_enter_top_action_another">Поставить за [price] [icon]</string>
+    <string name="src_top_enter_top_action_self">Стать за [price] [icon]</string>
+    <string name="src_top_enter_top_target">"[time] в ТОПе для
+[short_link]"</string>
+    <string name="src_top_item_action_it_is_you">Вы</string>
+    <string name="src_top_item_action_pending">В ожидании…</string>
+    <string name="src_top_item_action_subscribe">Подписаться +[reward] [icon]</string>
+    <string name="src_top_item_action_subscribed">Подписаны</string>
+    <string name="src_top_item_action_subscribing">Подписка…</string>
+    <string name="src_top_item_action_your_friend">Ваш друг</string>
+    <string name="src_top_msg_followed_before">Были подписаны ранее!</string>
+    <string name="src_top_msg_got_followers">Получено подписчиков [amount] ([language])</string>
+    <string name="src_top_toolbar_title">Топ</string>
+    <string name="status_bar_notification_info_overflow">>999</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
+    <string name="support_email_body">Детально опишите проблему (можно скриншоты):</string>
+    <string name="support_email_dialog_title">Написать через</string>
+    <string name="support_open_faq">Открыть инструкцию (FAQ)</string>
+    <string name="tabs_tutorial_dashboard_description">Получай дневной бонус в виде подарка каждый день [emoji:SMILING_FACE_WITH_SUN_GLASS]</string>
+    <string name="tabs_tutorial_dashboard_title">Новости и подарки</string>
+    <string name="tabs_tutorial_gaining_description">Получай кристаллы в автоматическом режиме [emoji:SMILING_FACE_WITH_SUN_GLASS]</string>
+    <string name="tabs_tutorial_gaining_title">Заработок кристаллов</string>
+    <string name="tabs_tutorial_posts_description">Создавай заказы на лайки и просмотры видео [emoji:FACE_THROWING_KISS]</string>
+    <string name="tabs_tutorial_posts_title">Лайки и просмотры</string>
+    <string name="tabs_tutorial_referral_system_description">Приглашай друзей и получай вознаграждения за них [emoji:FACE_THROWING_KISS]</string>
+    <string name="tabs_tutorial_referral_system_title">Рефералка</string>
+    <string name="tabs_tutorial_top_description">Становись в ТОП и получай подписчиков с нужным тебе языком [emoji:FACE_THROWING_KISS]</string>
+    <string name="tabs_tutorial_top_title">Подписчики</string>
+    <string name="time_prefix_hours">ч</string>
+    <string name="time_prefix_minutes">м</string>
+    <string name="v7_preference_off">ВЫКЛ.</string>
+    <string name="v7_preference_on">ВКЛ.</string>
+    <string name="view_tasks_attention_instagram_app_action">Cкачать</string>
+    <string name="view_tasks_attention_instagram_app_summary">Для выполнения заданий вам необходимо просматривать видое через официальное приложение Instagram :)</string>
+    <string name="view_tasks_attention_instagram_app_title">Важно!</string>
+    <string name="views_intro_slide_0_description">Просматривай видео других пользователей за награду</string>
+    <string name="views_intro_slide_0_title">Ручной заработок</string>
+    <string name="views_intro_slide_1_description_proof_bookmark">После открытия видео в Instagram, добавьте пост в закладки и дождись окончания таймера</string>
+    <string name="views_intro_slide_1_description_proof_like">После открытия видео в Instagram, поставь лайк и дождись окончания таймера</string>
+    <string name="views_intro_slide_1_title">Простые действия</string>
+    <string name="views_intro_slide_2_description">Полученную карму вы можете обменивать на кристаллы!</string>
+    <string name="views_intro_slide_2_title">Забери награду</string>
+    <string name="write_us">Написать нам</string>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/coordinatorLayout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:gravity="center_horizontal" android:id="@id/relativeLayout" android:background="@color/primary_dark" android:paddingTop="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/logoImageView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" app:srcCompat="@drawable/img_plus" />
+            <com.catool.android.views.CatoolTextView android:textSize="18.0sp" android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="center" android:id="@id/catoolTextView" android:paddingTop="24.0dip" android:paddingBottom="24.0dip" android:layout_width="300.0dip" android:layout_height="wrap_content" android:text="@string/act_reauth_title" android:layout_below="@id/logoImageView" android:layout_centerHorizontal="true" app:text_view_font="@string/roboto_medium" />
+        </RelativeLayout>
+        <androidx.recyclerview.widget.RecyclerView android:theme="@style/Theme.AppCompat.Light" android:layout_gravity="center" android:id="@id/recyclerView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/done_button" android:layout_below="@id/relativeLayout" android:layout_centerHorizontal="true" />
+        <com.catool.android.views.CatoolButton android:textColor="#ffffffff" android:id="@id/done_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/act_reauth_button" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" app:button_font="@string/roboto_medium" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/message_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/relativeLayout" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+            <me.zhanghai.android.materialprogressbar.MaterialProgressBar android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginBottom="8.0dip" app:mpb_indeterminateTint="@color/blue_400" />
+            <com.catool.android.views.CatoolTextView android:textSize="18.0sp" android:gravity="center" android:id="@id/message_text_view" android:layout_width="300.0dip" android:layout_height="wrap_content" android:text="@string/scr_reauth_content_message_setup" app:text_view_font="@string/roboto_regular" />
+        </LinearLayout>
+    </RelativeLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

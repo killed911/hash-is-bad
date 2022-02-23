@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@mipmap/ic_help_outline_white_24dp" android:id="@id/tutorial" android:visible="true" android:title="@string/act_gaining_menu_tutorial" app:showAsAction="ifRoom" />
+    <item android:icon="@null" android:id="@id/write_us" android:visible="true" android:title="@string/act_gaining_menu_item_write_us" app:showAsAction="never" />
+</menu>

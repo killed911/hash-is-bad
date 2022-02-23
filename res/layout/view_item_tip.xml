@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/imageView4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="16.0dip" app:srcCompat="@drawable/ic_tips_white_24dp" />
+    <com.catool.android.views.CatoolTextView android:textSize="14.0sp" android:textColor="#80ffffff" android:id="@id/tip_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/imageView4" android:layout_alignTop="@id/imageView4" android:layout_alignParentEnd="true" app:text_view_font="@string/roboto_regular" />
+</RelativeLayout>

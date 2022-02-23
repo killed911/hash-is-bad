@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="300.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.farapra.rmringprogressview.RMRingProgressView android:layout_gravity="center" android:id="@id/ring_progress" android:focusable="false" android:clickable="false" android:layout_width="300.0dip" android:layout_height="300.0dip" />
+    <com.farapra.materialviews.ProfileImageView android:layout_gravity="center" android:id="@id/avatar_image_view" android:focusable="false" android:clickable="false" android:layout_width="80.0dip" android:layout_height="80.0dip" />
+    <me.zhanghai.android.materialprogressbar.MaterialProgressBar android:layout_gravity="center" android:id="@id/progress_bar" android:focusable="false" android:clickable="false" android:layout_width="80.0dip" android:layout_height="80.0dip" app:mpb_indeterminateTint="#19ffffff" />
+    <com.catool.android.views.CatoolTextView android:textSize="12.0sp" android:textColor="#80ffffff" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@id/title_text_view" android:focusable="false" android:clickable="false" android:layout_width="42.0dip" android:layout_height="42.0dip" android:text="@string/frg_suspects_progress_sync_title" android:maxLines="1" app:text_view_font="@string/roboto_regular" />
+    <ImageView android:layout_gravity="center" android:id="@id/action_image_view" android:focusable="true" android:clickable="true" android:layout_width="80.0dip" android:layout_height="80.0dip" />
+    <FrameLayout android:layout_gravity="center" android:id="@id/packman" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="80.0dip" android:alpha="0.0">
+        <com.wang.avi.AVLoadingIndicatorView android:visibility="visible" android:layout_width="40.0dip" android:layout_height="40.0dip" app:indicatorName="PacmanIndicator" />
+    </FrameLayout>
+    <View android:layout_gravity="center" android:id="@id/foreground_view" android:focusable="false" android:clickable="false" android:layout_width="300.0dip" android:layout_height="300.0dip" />
+</FrameLayout>

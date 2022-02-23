@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:id="@id/group_reset">
+        <item android:icon="@null" android:id="@id/reset" android:visible="true" android:title="@string/frg_web_view_auth_menu_item_title_reset" app:showAsAction="ifRoom" />
+    </group>
+    <item android:icon="@null" android:id="@id/help" android:visible="true" android:title="@string/frg_web_view_auth_menu_item_title_help" app:showAsAction="never" />
+</menu>

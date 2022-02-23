@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/swipe_refresh_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/stub_linear_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/img_lemur_110x146dp" />
+                <com.catool.android.views.CatoolTextView android:textColor="#ffffffff" android:gravity="center" android:id="@id/stub_text_view" android:layout_width="300.0dip" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:alpha="0.3" app:text_view_font="@string/roboto_regular" />
+                <com.catool.android.views.CatoolButton android:textColor="?colorAccent" android:id="@id/open_posts_button" android:paddingLeft="16.0dip" android:paddingTop="8.0dip" android:paddingRight="16.0dip" android:paddingBottom="8.0dip" android:layout_width="wrap_content" android:layout_height="36.0dip" android:layout_marginTop="16.0dip" android:text="@string/frg_orders_stub_action" android:textAllCaps="true" app:button_font="@string/roboto_medium" />
+            </LinearLayout>
+        </FrameLayout>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+</LinearLayout>

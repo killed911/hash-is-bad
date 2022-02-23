@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/root_linear_layout" android:paddingLeft="16.0dip" android:paddingTop="36.0dip" android:paddingRight="16.0dip" android:paddingBottom="@dimen/appIntroBottomBarHeight" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.catool.android.views.CatoolTextView android:textSize="24.0sp" android:textStyle="bold" android:textColor="@color/grey_50" android:gravity="bottom|center" android:layout_gravity="center" android:id="@id/titleTextView" android:paddingLeft="32.0dip" android:paddingRight="32.0dip" android:paddingBottom="24.0dip" android:layout_width="wrap_content" android:layout_height="0.0dip" android:text="@string/app_terms_of_service_title" android:layout_weight="3.0" app:text_view_font="@string/roboto_bold" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="5.0">
+        <ScrollView android:layout_gravity="center_horizontal" android:id="@id/scroll_view" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.catool.android.views.CatoolTextView android:textSize="12.0sp" android:textColor="#ffffffff" android:id="@id/termsOfServiceTextView" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/app_terms_of_service_description" app:text_view_font="@string/roboto_regular" />
+        </ScrollView>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:weightSum="1.0" android:layout_weight="2.0">
+        <CheckBox android:textSize="14.0sp" android:textColor="@color/grey_50" android:gravity="left" android:id="@id/checkBox" android:paddingLeft="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/app_terms_of_service_action" android:textAllCaps="true" />
+    </LinearLayout>
+</LinearLayout>

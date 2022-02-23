@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@mipmap/ic_reorder_white_24dp" android:id="@id/reorder" android:visible="true" android:title="@string/frg_suspects_options_menu_item_reorder" app:showAsAction="ifRoom" />
+    <item android:icon="@null" android:id="@id/reset_cache" android:visible="true" android:title="@string/frg_suspects_options_menu_item_reset_cache" app:showAsAction="never" />
+</menu>

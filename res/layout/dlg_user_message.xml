@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/picture_image_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="48.0dip" android:src="@mipmap/img_dialog_unfollowing" android:fillViewport="true" />
+    <com.catool.android.views.CatoolTextView android:id="@id/title_text_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.catool.android.views.CatoolTextView android:id="@id/message_text_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

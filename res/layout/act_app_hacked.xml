@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="?colorPrimary" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.catool.android.views.CatoolTextView android:textSize="24.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/title_text_view" android:layout_width="300.0dip" android:layout_height="wrap_content" app:text_view_font="@string/roboto_bold" />
+        <com.catool.android.views.CatoolTextView android:textSize="14.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/description_text_view" android:layout_width="300.0dip" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" app:text_view_font="@string/roboto_regular" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:src="@mipmap/img_app_hack" />
+    </LinearLayout>
+</LinearLayout>

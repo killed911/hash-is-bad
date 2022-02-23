@@ -1,0 +1,249 @@
+.class public final Lcom/hiketop/app/model/KarmaStateView$Companion;
+.super Ljava/lang/Object;
+.source "KarmaState.kt"
+
+# interfaces
+.implements Lcom/hiketop/app/model/JsonParser;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/hiketop/app/model/KarmaStateView;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "Companion"
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Object;",
+        "Lcom/hiketop/app/model/JsonParser<",
+        "Lcom/hiketop/app/model/KarmaStateView;",
+        ">;"
+    }
+.end annotation
+
+.annotation system Ldalvik/annotation/SourceDebugExtension;
+    value = "SMAP\nKarmaState.kt\nKotlin\n*S Kotlin\n*F\n+ 1 KarmaState.kt\ncom/hiketop/app/model/KarmaStateView$Companion\n+ 2 JsonParser.kt\ncom/hiketop/app/utils/JsonParserKt\n+ 3 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,146:1\n10#2,3:147\n13#2,3:152\n956#3:150\n956#3:151\n*E\n*S KotlinDebug\n*F\n+ 1 KarmaState.kt\ncom/hiketop/app/model/KarmaStateView$Companion\n*L\n60#1,3:147\n60#1,3:152\n60#1:150\n60#1:151\n*E\n"
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    bv = {
+        0x1,
+        0x0,
+        0x3
+    }
+    d1 = {
+        "\u0000\u0016\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0000\u0008\u0086\u0003\u0018\u00002\u0008\u0012\u0004\u0012\u00020\u00020\u0001B\u0007\u0008\u0002\u00a2\u0006\u0002\u0010\u0003J\u0010\u0010\u0004\u001a\u00020\u00022\u0006\u0010\u0005\u001a\u00020\u0006H\u0016\u00a8\u0006\u0007"
+    }
+    d2 = {
+        "Lcom/hiketop/app/model/KarmaStateView$Companion;",
+        "Lcom/hiketop/app/model/JsonParser;",
+        "Lcom/hiketop/app/model/KarmaStateView;",
+        "()V",
+        "of",
+        "json",
+        "Lorg/json/JSONObject;",
+        "Hiketop+_v4.2.0-436_release"
+    }
+    k = 0x1
+    mv = {
+        0x1,
+        0x1,
+        0x10
+    }
+.end annotation
+
+
+# direct methods
+.method private constructor <init>()V
+    .locals 0
+
+    .line 59
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+.method public synthetic constructor <init>(Lkotlin/jvm/internal/DefaultConstructorMarker;)V
+    .locals 0
+
+    .line 59
+    invoke-direct {p0}, Lcom/hiketop/app/model/KarmaStateView$Companion;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public of(Lorg/json/JSONObject;)Lcom/hiketop/app/model/KarmaStateView;
+    .locals 5
+
+    const-string v0, "json"
+
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkParameterIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 62
+    :try_start_0
+    sget-object v0, Lcom/hiketop/app/model/core/RichText;->Companion:Lcom/hiketop/app/model/core/RichText$Companion;
+
+    const-string v1, "description"
+
+    invoke-virtual {p1, v1}, Lorg/json/JSONObject;->getJSONObject(Ljava/lang/String;)Lorg/json/JSONObject;
+
+    move-result-object v1
+
+    const-string v2, "getJSONObject(\"description\")"
+
+    invoke-static {v1, v2}, Lkotlin/jvm/internal/Intrinsics;->checkExpressionValueIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
+
+    invoke-virtual {v0, v1}, Lcom/hiketop/app/model/core/RichText$Companion;->of(Lorg/json/JSONObject;)Lcom/hiketop/app/model/core/RichText;
+
+    move-result-object v0
+
+    const-string v1, "status"
+
+    .line 63
+    invoke-virtual {p1, v1}, Lorg/json/JSONObject;->getString(Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v1
+
+    const-string v2, "getString(\"status\")"
+
+    invoke-static {v1, v2}, Lkotlin/jvm/internal/Intrinsics;->checkExpressionValueIsNotNull(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const-string v2, "karmaActions"
+
+    .line 64
+    invoke-static {p1, v2}, Lcom/hiketop/app/utils/JsonParserKt;->getJsonArrayOrNull(Lorg/json/JSONObject;Ljava/lang/String;)Lorg/json/JSONArray;
+
+    move-result-object v2
+
+    if-eqz v2, :cond_0
+
+    .line 65
+    sget-object v3, Lcom/hiketop/app/model/KarmaStateView$Action;->Companion:Lcom/hiketop/app/model/KarmaStateView$Action$Companion;
+
+    check-cast v3, Lcom/hiketop/app/model/JsonParser;
+
+    invoke-static {v2, v3}, Lutils/json/ExtentionsKt;->toList(Lorg/json/JSONArray;Lcom/hiketop/app/model/JsonParser;)Ljava/util/List;
+
+    move-result-object v2
+
+    if-eqz v2, :cond_0
+
+    check-cast v2, Ljava/lang/Iterable;
+
+    .line 150
+    new-instance v3, Lcom/hiketop/app/model/KarmaStateView$Companion$$special$$inlined$sortedBy$1;
+
+    invoke-direct {v3}, Lcom/hiketop/app/model/KarmaStateView$Companion$$special$$inlined$sortedBy$1;-><init>()V
+
+    check-cast v3, Ljava/util/Comparator;
+
+    invoke-static {v2, v3}, Lkotlin/collections/CollectionsKt;->sortedWith(Ljava/lang/Iterable;Ljava/util/Comparator;)Ljava/util/List;
+
+    move-result-object v2
+
+    if-eqz v2, :cond_0
+
+    goto :goto_0
+
+    .line 66
+    :cond_0
+    invoke-static {}, Lkotlin/collections/CollectionsKt;->emptyList()Ljava/util/List;
+
+    move-result-object v2
+
+    :goto_0
+    const-string v3, "restoreWays"
+
+    .line 67
+    invoke-static {p1, v3}, Lcom/hiketop/data/dao/JsonExtKt;->getJSONArrayOrNull(Lorg/json/JSONObject;Ljava/lang/String;)Lorg/json/JSONArray;
+
+    move-result-object v3
+
+    if-eqz v3, :cond_1
+
+    .line 68
+    sget-object v4, Lcom/hiketop/app/model/KarmaStateView$RestoreWay;->Companion:Lcom/hiketop/app/model/KarmaStateView$RestoreWay$Companion;
+
+    check-cast v4, Lcom/hiketop/app/model/JsonParser;
+
+    invoke-static {v3, v4}, Lutils/json/ExtentionsKt;->toList(Lorg/json/JSONArray;Lcom/hiketop/app/model/JsonParser;)Ljava/util/List;
+
+    move-result-object v3
+
+    if-eqz v3, :cond_1
+
+    check-cast v3, Ljava/lang/Iterable;
+
+    .line 151
+    new-instance v4, Lcom/hiketop/app/model/KarmaStateView$Companion$$special$$inlined$sortedBy$2;
+
+    invoke-direct {v4}, Lcom/hiketop/app/model/KarmaStateView$Companion$$special$$inlined$sortedBy$2;-><init>()V
+
+    check-cast v4, Ljava/util/Comparator;
+
+    invoke-static {v3, v4}, Lkotlin/collections/CollectionsKt;->sortedWith(Ljava/lang/Iterable;Ljava/util/Comparator;)Ljava/util/List;
+
+    move-result-object v3
+
+    if-eqz v3, :cond_1
+
+    goto :goto_1
+
+    .line 69
+    :cond_1
+    invoke-static {}, Lkotlin/collections/CollectionsKt;->emptyList()Ljava/util/List;
+
+    move-result-object v3
+
+    .line 61
+    :goto_1
+    new-instance v4, Lcom/hiketop/app/model/KarmaStateView;
+
+    invoke-direct {v4, v0, v1, v2, v3}, Lcom/hiketop/app/model/KarmaStateView;-><init>(Lcom/hiketop/app/model/core/RichText;Ljava/lang/String;Ljava/util/List;Ljava/util/List;)V
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    return-object v4
+
+    :catchall_0
+    move-exception v0
+
+    .line 153
+    new-instance v1, Ljava/lang/StringBuilder;
+
+    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+
+    const-string v2, "\u041d\u0435 \u0443\u0434\u0430\u043b\u043e\u0441\u044c \u0441\u043f\u0430\u0440\u0441\u0438\u0442\u044c JSON: "
+
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object p1
+
+    const-string v1, "mapJson():"
+
+    invoke-static {v1, p1, v0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+
+    .line 154
+    throw v0
+.end method
+
+.method public bridge synthetic of(Lorg/json/JSONObject;)Ljava/lang/Object;
+    .locals 0
+
+    .line 59
+    invoke-virtual {p0, p1}, Lcom/hiketop/app/model/KarmaStateView$Companion;->of(Lorg/json/JSONObject;)Lcom/hiketop/app/model/KarmaStateView;
+
+    move-result-object p1
+
+    return-object p1
+.end method

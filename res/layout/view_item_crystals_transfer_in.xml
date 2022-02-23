@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/avatar_image_view" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_toEndOf="@id/avatar_image_view">
+        <com.catool.android.views.CatoolTextView android:textSize="14.0sp" android:textColor="#ff000000" android:ellipsize="end" android:id="@id/line_0_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" android:includeFontPadding="false" app:text_view_font="@string/roboto_regular" />
+        <com.catool.android.views.CatoolTextView android:textSize="9.0sp" android:textColor="#ff000000" android:ellipsize="end" android:id="@id/line_1_text_view" android:paddingTop="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" android:includeFontPadding="false" android:alpha="0.5" app:text_view_font="@string/roboto_light" />
+    </LinearLayout>
+</RelativeLayout>

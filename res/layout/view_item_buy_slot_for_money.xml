@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/root_linear_layout" android:layout_width="fill_parent" android:layout_height="@dimen/frg_bundle_accounts_slot_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="18.0dip" app:srcCompat="@drawable/ic_buy_slot_for_money_logo" />
+    <com.catool.android.views.CatoolTextView android:textSize="14.0sp" android:textColor="#ffffffff" android:ellipsize="end" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/frg_bundle_accounts_buy_slot_for_money_title" android:maxLines="1" android:includeFontPadding="false" android:textAllCaps="true" app:text_view_font="@string/roboto_medium" />
+    <com.catool.android.views.CatoolTextView android:textSize="10.0sp" android:textColor="@color/frg_bundle_account_buy_slot_color_0" android:ellipsize="end" android:gravity="center" android:id="@id/price_text_view" android:paddingTop="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" app:text_view_font="@string/roboto_bold" />
+</LinearLayout>

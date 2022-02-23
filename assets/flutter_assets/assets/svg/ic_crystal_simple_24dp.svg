@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="20px" viewBox="0 0 24 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60 (88103) - https://sketch.com -->
+    <title>ic_crystal_simple</title>
+    <desc>Created with Sketch.</desc>
+    <g id="flutter-earning-dev" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy-25" transform="translate(-70.000000, -50.000000)">
+            <g id="ic_crystal_simple" transform="translate(70.000000, 48.000000)">
+                <g id="Group-15">
+                    <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+                    <path d="M3.51212867,2 L0,9.03201856 L12.2829139,22 L24,8.92343387 L20.4887796,2 L3.51212867,2 Z M4.06576093,8.48410758 L4,8.42267726 L5.55725539,5 L18.5103322,5 L20,8.3905868 L12.9453134,16.1546455 L12.2511702,17 L4.06576093,8.48410758 Z" id="Page-1-Copy" fill="#FFFFFF"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

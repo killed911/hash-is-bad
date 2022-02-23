@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="days_postfix">
+        <item>day</item>
+        <item>days</item>
+        <item>days</item>
+        <item>days</item>
+        <item>days</item>
+        <item>days</item>
+        <item>days</item>
+        <item>days</item>
+        <item>days</item>
+        <item>days</item>
+        <item>days</item>
+        <item>days</item>
+        <item>days</item>
+        <item>days</item>
+        <item>days</item>
+        <item>days</item>
+        <item>days</item>
+        <item>days</item>
+        <item>days</item>
+        <item>days</item>
+    </string-array>
+    <string-array name="dlg_search_deceivers_direction_items">
+        <item>First new</item>
+        <item>First old</item>
+    </string-array>
+    <array name="energy_transactions_chart_colors_0">
+        <item>@color/karma_transactions_chart_color_0_0</item>
+        <item>@color/karma_transactions_chart_color_0_1</item>
+        <item>@color/karma_transactions_chart_color_0_2</item>
+    </array>
+    <array name="energy_transactions_chart_colors_1">
+        <item>@color/karma_transactions_chart_color_1_0</item>
+        <item>@color/karma_transactions_chart_color_1_1</item>
+        <item>@color/karma_transactions_chart_color_1_2</item>
+    </array>
+    <string-array name="frg_partnership_request_social_networks">
+        <item>Youtube</item>
+        <item>Facebook</item>
+        <item>Twitter</item>
+        <item>VK</item>
+        <item>Tumblr</item>
+        <item>Telegram</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="frg_transfer_item_additional_preferences_in">
+        <item>Paste link</item>
+        <item>Copy link</item>
+        <item>Copy nickname</item>
+        <item>Add to bookmarks</item>
+    </string-array>
+    <string-array name="frg_transfer_item_additional_preferences_out">
+        <item>Paste link</item>
+        <item>Copy link</item>
+        <item>Copy nickname</item>
+        <item>Add to bookmarks</item>
+    </string-array>
+    <string-array name="hours_postfixes">
+        <item>hours</item>
+        <item>hour</item>
+        <item>hours</item>
+        <item>hours</item>
+        <item>hours</item>
+        <item>hours</item>
+        <item>hours</item>
+        <item>hours</item>
+        <item>hours</item>
+        <item>hours</item>
+        <item>hours</item>
+        <item>hours</item>
+        <item>hours</item>
+        <item>hours</item>
+        <item>hours</item>
+        <item>hours</item>
+        <item>hours</item>
+        <item>hours</item>
+        <item>hours</item>
+        <item>hours</item>
+        <item>hours</item>
+        <item>hours</item>
+        <item>hours</item>
+        <item>hours</item>
+        <item>hours</item>
+    </string-array>
+    <string-array name="pieces_postfix">
+        <item>item</item>
+        <item>items</item>
+        <item>items</item>
+        <item>items</item>
+        <item>items</item>
+        <item>items</item>
+        <item>items</item>
+        <item>items</item>
+        <item>items</item>
+        <item>items</item>
+        <item>items</item>
+        <item>items</item>
+        <item>items</item>
+        <item>items</item>
+        <item>items</item>
+        <item>items</item>
+        <item>items</item>
+        <item>items</item>
+        <item>items</item>
+        <item>items</item>
+    </string-array>
+</resources>

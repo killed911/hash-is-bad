@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="28" android:compileSdkVersionCodename="9" package="com.hiketop.app" platformBuildVersionCode="28" platformBuildVersionName="9">
+    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="com.android.vending.BILLING"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+    <application android:allowBackup="false" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:icon="@mipmap/ic_launcher_app" android:installLocation="auto" android:label="@string/application_name" android:name="com.hiketop.app.application.App" android:supportsRtl="false" android:theme="@style/GeneralThemeVersion">
+        <meta-data android:name="com.google.android.wearable.notificationBridgeMode" android:value="NO_BRIDGING"/>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <meta-data android:name="com.google.android.gms.ads.APPLICATION_ID" android:value="0"/>
+        <meta-data android:name="com.google.android.gms.ads.AD_MANAGER_APP" android:value="true"/>
+        <activity android:name="com.hiketop.app.activities.splash.SplashActivity" android:theme="@style/SplashThemeVersion">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="com.hiketop.app.activities.termsOfService.TermsOfServiceActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="com.hiketop.app.activities.partnership.PartnershipActivity" android:screenOrientation="portrait" android:theme="@style/GeneralThemeVersionDark" android:windowSoftInputMode="adjustResize"/>
+        <activity android:exported="false" android:name="com.hiketop.app.activities.main.MainActivity" android:screenOrientation="portrait" android:theme="@style/GeneralThemeVersionDark" android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity android:exported="false" android:name="com.hiketop.app.activities.addAccount.AttachAccountActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="com.hiketop.app.activities.authentication.AuthenticationActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize"/>
+        <activity android:exported="false" android:name="com.hiketop.app.activities.reauth.ReauthActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="com.hiketop.app.activities.test.TestActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="com.hiketop.app.activities.signIn.SignInActivity" android:screenOrientation="portrait" android:theme="@style/SignInTheme"/>
+        <activity android:exported="false" android:name="com.hiketop.app.activities.registerBundle.RegisterBundleActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="com.hiketop.app.activities.authenticationProblems.AuthenticationHealthProblemsActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="com.hiketop.app.activities.logout.LogoutActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="com.hiketop.app.base.UserFragmentsActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="com.hiketop.app.activities.products.ProductsActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="com.hiketop.app.activities.bundleIntro.BundleIntroActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="com.hiketop.app.base.FragmentsActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="com.hiketop.app.activities.appIntro.AppIntroActivity" android:screenOrientation="portrait" android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:exported="false" android:name="com.hiketop.app.activities.devTools.DevToolsActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="com.hiketop.app.activities.comments.CommentsActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="com.hiketop.app.activities.appHacked.AppHackedActivity" android:theme="@style/SimpleDarkThemeVersioned"/>
+        <activity android:exported="false" android:name="com.hiketop.app.activities.authenticationHelp.AuthenticationHelpActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="com.hiketop.app.activities.settings.SettingsActivity" android:screenOrientation="portrait" android:theme="@style/SettingsTheme"/>
+        <activity android:exported="false" android:name="com.hiketop.app.activities.extraTasks.ExtraTasksActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="com.hiketop.app.activities.viewsTasks.ManualViewTasksActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="com.hiketop.app.activities.viewsTasksIntro.ViewsTasksIntroActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="density|fontScale|keyboard|keyboardHidden|layoutDirection|locale|orientation|screenLayout|screenSize|uiMode" android:exported="false" android:hardwareAccelerated="true" android:launchMode="singleTop" android:name="com.hiketop.app.fragments.flutter.FlutterEmbeddedActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize">
+            <meta-data android:name="io.flutter.app.android.SplashScreenUntilFirstFrame" android:value="true"/>
+        </activity>
+        <provider android:authorities="com.hiketop.app.application.AppConfigsContentProvider" android:exported="false" android:name="com.hiketop.app.application.AppConfigsContentProvider"/>
+        <service android:exported="false" android:name="com.hiketop.app.service.views.ManualViewTaskService" android:screenOrientation="portrait"/>
+        <service android:exported="false" android:name="com.hiketop.app.fragments.suspects.service.SuspectsService"/>
+        <service android:exported="false" android:name="com.hiketop.app.service.foreground.ForegroundService"/>
+        <activity android:exported="false" android:name="com.hiketop.app.activities.giftCode.GiftCodeActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize"/>
+        <activity android:exported="false" android:name="com.hiketop.app.activities.addFaveUser.AddFaveUserActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize"/>
+        <activity android:exported="false" android:name="com.hiketop.app.activities.dev.DevActivity" android:screenOrientation="portrait" android:theme="@style/DevToolsTheme"/>
+        <activity android:exported="false" android:name="com.hiketop.app.activities.gaining.GainingActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="com.hiketop.app.activities.karma.KarmaActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="com.hiketop.app.activities.dev.UnblockDevToolsActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize"/>
+        <activity android:exported="false" android:name="com.hiketop.app.activities.boughtProducts.BoughtProductsActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="com.hiketop.app.activities.suspects.SuspectsActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="false" android:name="com.hiketop.app.activities.accounts.AccountsActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:hardwareAccelerated="true" android:name="com.tapjoy.TJAdUnitActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.tapjoy.mraid.view.ActionHandler"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.tapjoy.mraid.view.Browser"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:hardwareAccelerated="true" android:name="com.tapjoy.TJContentActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <receiver android:enabled="true" android:exported="false" android:name="com.hiketop.app.receivers.BatteryStateReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED"/>
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED"/>
+                <action android:name="android.intent.action.ACTION_BATTERY_LOW"/>
+                <action android:name="android.intent.action.ACTION_BATTERY_OKAY"/>
+            </intent-filter>
+        </receiver>
+        <activity android:exported="false" android:name="com.hiketop.app.activities.shop.ShopActivity" android:screenOrientation="portrait"/>
+        <receiver android:exported="true" android:name="com.tapjoy.InstallReferrerReceiver">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.tapjoy.TapjoyReceiver"/>
+        <provider android:authorities="com.hiketop.app.crashlyticsinitprovider" android:exported="false" android:initOrder="90" android:name="com.crashlytics.android.CrashlyticsInitProvider"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize" android:name="com.android.billingclient.api.ProxyBillingActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <receiver android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementReceiver"/>
+        <receiver android:enabled="true" android:exported="true" android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver" android:permission="android.permission.INSTALL_PACKAGES">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER"/>
+            </intent-filter>
+        </receiver>
+        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementService"/>
+        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:directBootAware="true" android:exported="false" android:name="com.google.firebase.components.ComponentDiscoveryService">
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.iid.Registrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+        </service>
+        <receiver android:exported="true" android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver" android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+            </intent-filter>
+        </receiver>
+        <meta-data android:name="flutterProjectType" android:value="module"/>
+        <meta-data android:name="flutterEmbedding" android:value="2"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:exported="false" android:name="com.google.android.gms.ads.AdActivity" android:theme="@android:style/Theme.Translucent"/>
+        <provider android:authorities="com.hiketop.app.mobileadsinitprovider" android:exported="false" android:initOrder="100" android:name="com.google.android.gms.ads.MobileAdsInitProvider"/>
+        <provider android:authorities="com.hiketop.app.firebaseinitprovider" android:exported="false" android:initOrder="100" android:name="com.google.firebase.provider.FirebaseInitProvider"/>
+        <activity android:exported="false" android:name="com.google.android.gms.common.api.GoogleApiActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <service android:exported="false" android:name="androidx.room.MultiInstanceInvalidationService"/>
+        <activity android:name="com.farapra.anco.TestActivity"/>
+        <meta-data android:name="scout_file_provider_authorities" android:value="com.hiketop.app.ScoutFileProvider"/>
+        <activity android:exported="false" android:name="com.farapra.scout.HostActivity" android:screenOrientation="portrait" android:theme="@style/LogsTheme"/>
+        <provider android:authorities="com.hiketop.app.ScoutFileProvider" android:exported="false" android:grantUriPermissions="true" android:name="androidx.core.content.FileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/fileprovider"/>
+        </provider>
+        <receiver android:enabled="true" android:name="com.catool.android.common.activities.ConnectivityReceiver">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+        </receiver>
+        <provider android:authorities="com.hiketop.app.catool_init_provider" android:exported="false" android:name="com.catool.android.CatoolInitProvider"/>
+        <provider android:authorities="com.hiketop.app.kotprefinitprovider" android:enabled="true" android:exported="false" android:name="com.chibatching.kotpref.initializer.KotprefInitProvider"/>
+        <provider android:authorities="com.hiketop.app.lifecycle-process" android:exported="false" android:multiprocess="true" android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"/>
+        <activity android:exported="false" android:name="com.farapra.rmlogger.RMLogsActivity" android:theme="@style/RMLogsLibraryTheme"/>
+        <activity android:exported="false" android:name="com.farapra.rmlogger.RMFilesActivity" android:theme="@style/RMLogsLibraryTheme"/>
+        <provider android:authorities="com.hiketop.app.rmlog" android:exported="false" android:grantUriPermissions="true" android:name="com.farapra.rmlogger.RMFileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/rmlog_provider"/>
+        </provider>
+    </application>
+</manifest>

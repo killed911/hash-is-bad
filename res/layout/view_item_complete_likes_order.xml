@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.hiketop.app.views.SwipeRevealLayout android:id="@id/swipe_reveal_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" app:dragEdge="right" app:mode="same_level"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:background="@color/red_400" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip">
+        <ImageButton android:layout_gravity="center" android:id="@id/delete_image_button" android:layout_width="36.0dip" android:layout_height="36.0dip" android:tint="#ffffffff" app:srcCompat="@drawable/ic_delete_white_24dp" />
+    </FrameLayout>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.hiketop.app.views.CustomImageView android:id="@id/photo_image_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <LinearLayout android:gravity="center" android:layout_gravity="bottom" android:orientation="vertical" android:background="#60000000" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.catool.android.views.CatoolTextView android:textColor="#ffffffff" android:gravity="center" android:id="@id/title_text_view" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:shadowColor="#ff000000" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="1.0" android:alpha="0.8" app:text_view_font="@string/roboto_light" />
+            <com.catool.android.views.CatoolTextView android:textSize="11.0sp" android:textColor="#ffffffff" android:ellipsize="end" android:gravity="center" android:id="@id/likes_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" android:shadowColor="#ff000000" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="1.0" android:drawablePadding="2.0dip" app:text_view_font="@string/roboto_bold" />
+        </LinearLayout>
+    </FrameLayout>
+</com.hiketop.app.views.SwipeRevealLayout>

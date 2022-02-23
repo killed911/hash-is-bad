@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/coordinator_layout" android:fitsSystemWindows="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:background="@color/window_background_lighten" android:layout_width="fill_parent" android:layout_height="wrap_content" app:navigationIcon="@drawable/ic_arrow_back_white_24dp" app:subtitleTextAppearance="@style/LogsTheme.SubtitleTextAppearance" app:title="@string/frg_files_toolbar_title" app:titleMarginBottom="4.0dip" app:titleTextAppearance="@style/LogsTheme.TitleTextAppearance" />
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/swipe_refresh_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="?actionBarSize">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view" android:layout_width="fill_parent" android:layout_height="fill_parent" app:fastScrollEnabled="true" app:fastScrollHorizontalThumbDrawable="@drawable/fast_scroll_thumb_selector" app:fastScrollHorizontalTrackDrawable="@drawable/fast_scroll_line_selector" app:fastScrollVerticalThumbDrawable="@drawable/fast_scroll_thumb_selector" app:fastScrollVerticalTrackDrawable="@drawable/fast_scroll_line_selector" />
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/stub_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:tint="#60ffffff" app:srcCompat="@drawable/ic_folder_open_white_72dp" />
+        <TextView android:textSize="16.0sp" android:textColor="#60ffffff" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/frg_files_stub" />
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

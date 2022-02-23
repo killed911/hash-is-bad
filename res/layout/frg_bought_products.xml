@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" app:navigationIcon="@drawable/ic_arrow_back_white_24dp" app:title="@string/src_bought_products_toolbar_title" />
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/swipe_refresh_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.hiketop.app.activities.boughtProducts.BoughtProductsRecyclerView android:id="@id/recycler_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/stub_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <TextView android:textSize="18.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/title_text_view" android:paddingBottom="24.0dip" android:layout_width="300.0dip" android:layout_height="wrap_content" android:includeFontPadding="false" android:fontFamily="@font/roboto_bold" />
+                <TextView android:textSize="12.0sp" android:textColor="#80ffffff" android:gravity="center" android:id="@id/message_text_view" android:paddingBottom="24.0dip" android:layout_width="300.0dip" android:layout_height="wrap_content" android:includeFontPadding="false" android:fontFamily="@font/roboto_regular" />
+                <Button android:textSize="14.0sp" android:textColor="#80ffffff" android:gravity="center" android:id="@id/action_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="56.0dip" android:text="@string/src_bought_products_stub_action" android:textAllCaps="true" android:fontFamily="@font/roboto_bold" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" />
+            </LinearLayout>
+        </FrameLayout>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>

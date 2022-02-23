@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.farapra.smartmenudrawer.views.DrawerLinearLayout android:layout_gravity="left" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/menu_drawer_profile" />
+    <FrameLayout android:id="@id/content_frame_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</com.farapra.smartmenudrawer.views.DrawerLinearLayout>

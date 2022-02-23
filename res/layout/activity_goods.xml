@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/coordinator_layout" android:background="@color/window_background_dark" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.viewpager.widget.ViewPager android:id="@id/view_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+    <com.google.android.material.appbar.AppBarLayout android:id="@id/appBarLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" app:titleEnabled="false">
+        <androidx.appcompat.widget.Toolbar android:id="@id/toolbar_view" android:background="@color/colorPrimaryDark" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="?actionBarSize" app:elevation="4.0dip" app:layout_scrollFlags="enterAlways|scroll" app:popupTheme="@style/ToolbarMenuStyle" app:titleEnabled="true" app:titleTextColor="@color/white">
+            <com.catool.android.views.CatoolTextView android:textSize="16.0sp" android:textColor="#ffffffff" android:layout_gravity="center|right" android:id="@id/pointsTextView" android:paddingRight="14.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawablePadding="6.0dip" app:text_view_drawableRightCompat="@drawable/ic_crystal_simple_white_24dp" app:text_view_font="@string/roboto_medium" />
+        </androidx.appcompat.widget.Toolbar>
+        <com.google.android.material.tabs.TabLayout android:id="@id/tabLayout" android:background="?colorPrimaryDark" android:layout_width="fill_parent" android:layout_height="wrap_content" app:tabGravity="fill" app:tabIndicatorColor="@color/blue_400" app:tabIndicatorHeight="3.0dip" app:tabMode="fixed" app:tabSelectedTextColor="@color/grey_50" app:tabTextColor="@color/grey_50" />
+    </com.google.android.material.appbar.AppBarLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

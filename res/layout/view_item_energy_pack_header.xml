@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/white_transparent_50" android:paddingLeft="16.0dip" android:paddingTop="12.0dip" android:paddingRight="16.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageButton android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" android:id="@id/helpImageButton" android:background="?rippleBackgroundCircle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+    <com.catool.android.views.CatoolTextView android:textSize="14.0sp" android:textColor="@color/white" android:ellipsize="end" android:id="@id/titleTextView" android:paddingRight="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_toLeftOf="@id/helpImageButton" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:textAllCaps="true" android:layout_toStartOf="@id/helpImageButton" android:layout_alignParentStart="true" app:text_view_font="@string/roboto_regular" />
+</RelativeLayout>

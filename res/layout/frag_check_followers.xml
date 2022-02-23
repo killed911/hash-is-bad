@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@color/window_background_dark" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.google.android.material.appbar.AppBarLayout android:id="@id/appBarLayout" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="wrap_content" app:titleEnabled="false">
+            <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:background="?colorPrimaryDark" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="wrap_content" app:elevation="4.0dip" app:popupTheme="@style/ToolbarMenuStyle" app:subtitleTextColor="#80ffffff" app:titleEnabled="true" app:titleTextColor="#ffffffff" />
+        </com.google.android.material.appbar.AppBarLayout>
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/swipe_refresh_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+    </LinearLayout>
+    <FrameLayout android:layout_gravity="bottom" android:id="@id/karma_reword_panel_layout" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="42.0dip">
+        <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:layout_gravity="center|left" android:id="@id/karma_title_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:fontFamily="@font/roboto_medium" />
+        <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:layout_gravity="center|right" android:id="@id/karma_reward_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:drawablePadding="4.0dip" android:fontFamily="@font/roboto_bold" />
+    </FrameLayout>
+</FrameLayout>

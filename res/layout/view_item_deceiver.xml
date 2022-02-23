@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.farapra.materialviews.ProfileImageView android:id="@id/avatar_image_view" android:layout_width="80.0dip" android:layout_height="80.0dip" />
+        <FrameLayout android:id="@id/scene_frame_layout" android:layout_width="80.0dip" android:layout_height="80.0dip" />
+    </FrameLayout>
+    <com.catool.android.views.CatoolTextView android:textSize="12.0sp" android:textColor="#aaffffff" android:gravity="center" android:id="@id/name_text_view" android:layout_width="80.0dip" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" app:text_view_font="@string/roboto_regular" />
+</LinearLayout>

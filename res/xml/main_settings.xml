@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/frg_settings_pref_category_title_account">
+        <Preference android:persistent="false" android:title="@string/frg_settings_pref_item_logout_all_title" android:key="logout_all" android:summary="@string/frg_settings_pref_item_logout_all_summary" />
+        <Preference android:persistent="false" android:title="@string/frg_settings_pref_item_reauth_all_title" android:key="reauthenticate_all" android:summary="@string/frg_settings_pref_item_reauth_all_summary" />
+        <Preference android:persistent="false" android:title="@string/frg_settings_pref_item_reset_system_cache_title" android:key="reset_system_cache" android:summary="@string/frg_settings_pref_item_reset_system_cache_summary" />
+        <Preference android:persistent="false" android:title="@string/frg_settings_pref_item_app_version_title" android:key="app_version" android:summary="..." />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/frf_settings_pref_category_title_other">
+        <CheckBoxPreference android:title="@string/frg_settings_pref_item_clear_cookie_on_logout_title" android:key="clear_cookie_on_logout" android:summary="@string/frg_settings_pref_item_clear_cookie_on_logout_summary" android:defaultValue="true" />
+    </PreferenceCategory>
+</PreferenceScreen>

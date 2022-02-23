@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="days_postfix">
+        <item>день</item>
+        <item>дня</item>
+        <item>дня</item>
+        <item>дня</item>
+        <item>дней</item>
+        <item>дней</item>
+        <item>дней</item>
+        <item>дней</item>
+        <item>дней</item>
+        <item>дней</item>
+        <item>дней</item>
+        <item>дней</item>
+        <item>дней</item>
+        <item>дней</item>
+        <item>дней</item>
+        <item>дней</item>
+        <item>дней</item>
+        <item>дней</item>
+        <item>дней</item>
+        <item>дней</item>
+    </string-array>
+    <string-array name="dlg_search_deceivers_direction_items">
+        <item>Сначала новые</item>
+        <item>Сначала старые</item>
+    </string-array>
+    <string-array name="frg_transfer_item_additional_preferences_in">
+        <item>Вставить ссылку</item>
+        <item>Скопировать ссылку</item>
+        <item>Скопировать никнейм</item>
+        <item>В закладки</item>
+    </string-array>
+    <string-array name="frg_transfer_item_additional_preferences_out">
+        <item>Вставить ссылку</item>
+        <item>Скопировать ссылку</item>
+        <item>Скопировать никнейм</item>
+        <item>В закладки</item>
+    </string-array>
+    <string-array name="hours_postfixes">
+        <item>часов</item>
+        <item>час</item>
+        <item>часа</item>
+        <item>часа</item>
+        <item>часа</item>
+        <item>часов</item>
+        <item>часов</item>
+        <item>часов</item>
+        <item>часов</item>
+        <item>часов</item>
+        <item>часов</item>
+        <item>часов</item>
+        <item>часов</item>
+        <item>часов</item>
+        <item>часов</item>
+        <item>часов</item>
+        <item>часов</item>
+        <item>часов</item>
+        <item>часов</item>
+        <item>часов</item>
+        <item>часов</item>
+        <item>час</item>
+        <item>часа</item>
+        <item>часа</item>
+        <item>часа</item>
+    </string-array>
+    <string-array name="pieces_postfix">
+        <item>штука</item>
+        <item>штуки</item>
+        <item>штуки</item>
+        <item>штуки</item>
+        <item>штук</item>
+        <item>штук</item>
+        <item>штук</item>
+        <item>штук</item>
+        <item>штук</item>
+        <item>штук</item>
+        <item>штук</item>
+        <item>штук</item>
+        <item>штук</item>
+        <item>штук</item>
+        <item>штук</item>
+        <item>штук</item>
+        <item>штук</item>
+        <item>штук</item>
+        <item>штук</item>
+        <item>штук</item>
+    </string-array>
+</resources>

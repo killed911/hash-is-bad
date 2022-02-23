@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/window_background_dark" android:fitsSystemWindows="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:id="@id/appBarLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" app:titleEnabled="false">
+        <androidx.appcompat.widget.Toolbar android:id="@id/toolbar_view" android:background="@color/colorPrimaryDark" android:fitsSystemWindows="false" android:layout_width="fill_parent" android:layout_height="?actionBarSize" app:elevation="4.0dip" app:layout_scrollFlags="snap" app:popupTheme="@style/ToolbarMenuStyle" app:titleEnabled="true" app:titleTextColor="@color/white">
+            <com.catool.android.views.CatoolTextView android:textSize="16.0sp" android:textColor="#ffffffff" android:layout_gravity="center|right" android:id="@id/pointsTextView" android:paddingRight="14.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawablePadding="6.0dip" app:text_view_drawableRightCompat="@drawable/ic_crystal_white_24dp" app:text_view_font="@string/roboto_medium" />
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/coordinator_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/fragment_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</LinearLayout>

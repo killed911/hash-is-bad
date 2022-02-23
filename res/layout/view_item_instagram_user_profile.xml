@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/profileContentLinearLayout" android:paddingLeft="16.0dip" android:paddingTop="16.0dip" android:paddingRight="16.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.farapra.materialviews.ProfileImageView android:id="@id/avatarImageView" android:layout_width="80.0dip" android:layout_height="80.0dip" android:scaleType="centerCrop" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <LinearLayout android:gravity="left" android:orientation="horizontal" android:id="@id/someLinearLayout" android:paddingLeft="16.0dip" android:paddingBottom="16.0dip" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:baselineAligned="false" android:layout_centerVertical="true" android:layout_toEndOf="@id/avatarImageView">
+            <LinearLayout android:gravity="left" android:orientation="vertical" android:paddingRight="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.catool.android.views.CatoolTextView android:textSize="18.0sp" android:textColor="?colorPrimaryDark" android:ellipsize="end" android:id="@id/postsTextView" android:paddingBottom="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" app:text_view_font="@string/roboto_bold" />
+                <com.catool.android.views.CatoolTextView android:textSize="10.0sp" android:textColor="?colorPrimaryDark" android:ellipsize="end" android:id="@id/postsTitleTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dlg_instagram_user_posts_title" android:maxLines="1" android:textAllCaps="true" app:text_view_font="@string/roboto_regular" />
+            </LinearLayout>
+            <LinearLayout android:gravity="left" android:orientation="vertical" android:paddingRight="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.catool.android.views.CatoolTextView android:textSize="18.0sp" android:textColor="?colorPrimaryDark" android:ellipsize="end" android:id="@id/followersTextView" android:paddingBottom="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" app:text_view_font="@string/roboto_bold" />
+                <com.catool.android.views.CatoolTextView android:textSize="10.0sp" android:textColor="?colorPrimaryDark" android:ellipsize="end" android:id="@id/followersTitleTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dlg_instagram_user_followers_title" android:maxLines="1" android:textAllCaps="true" app:text_view_font="@string/roboto_regular" />
+            </LinearLayout>
+            <LinearLayout android:gravity="left" android:orientation="vertical" android:paddingRight="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.catool.android.views.CatoolTextView android:textSize="18.0sp" android:textColor="?colorPrimaryDark" android:ellipsize="end" android:id="@id/followingTextView" android:paddingBottom="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" app:text_view_font="@string/roboto_bold" />
+                <com.catool.android.views.CatoolTextView android:textSize="10.0sp" android:textColor="?colorPrimaryDark" android:ellipsize="end" android:id="@id/followingTitleTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dlg_instagram_user_following_title" android:maxLines="1" android:textAllCaps="true" app:text_view_font="@string/roboto_regular" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout android:gravity="center|left" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip">
+        <com.catool.android.views.CatoolTextView android:textSize="18.0sp" android:textColor="?colorPrimary" android:ellipsize="end" android:id="@id/titleTextView" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:minEms="4" android:singleLine="true" app:text_view_font="@string/roboto_medium" />
+        <com.catool.android.views.CatoolTextView android:textSize="14.0sp" android:textColor="@color/primary_dark_transparent_50" android:ellipsize="end" android:id="@id/shortLinkTextView" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:minEms="4" android:singleLine="true" app:text_view_font="@string/roboto_regular" />
+    </LinearLayout>
+</LinearLayout>

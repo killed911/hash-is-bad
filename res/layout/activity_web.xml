@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.Toolbar android:id="@id/toolbar_view" android:background="?colorPrimaryDark" android:layout_width="fill_parent" android:layout_height="?actionBarSize" />
+    <com.farapra.browserview.BrowserView android:id="@id/browser_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/toolbar_view" />
+</RelativeLayout>

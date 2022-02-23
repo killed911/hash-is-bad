@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/coordinator_layout" android:background="?colorPrimaryDark" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:paddingTop="48.0dip" android:paddingBottom="48.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_width="wrap_content" android:layout_height="fill_parent" app:srcCompat="@drawable/ic_repair_150dp" />
+            <com.catool.android.views.CatoolTextView android:textSize="16.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/message_text_view" android:paddingTop="24.0dip" android:paddingBottom="24.0dip" android:layout_width="300.0dip" android:layout_height="wrap_content" app:text_view_font="@string/roboto_regular" />
+            <FrameLayout android:background="@drawable/bg_rounded_side_accent_36dp" android:layout_width="wrap_content" android:layout_height="36.0dip">
+                <com.catool.android.views.CatoolButton android:textSize="14.0sp" android:textColor="#ffffffff" android:id="@id/action_button" android:background="@drawable/btn_rounded_side_white_ripple_36dp" android:paddingLeft="24.0dip" android:paddingRight="24.0dip" android:layout_width="wrap_content" android:layout_height="36.0dip" app:button_font="@string/roboto_medium" />
+            </FrameLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

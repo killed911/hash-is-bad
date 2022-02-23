@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:background="@drawable/bg_manage_accounts_add" android:layout_width="84.0dip" android:layout_height="84.0dip" android:layout_marginTop="16.0dip">
+        <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/ic_manage_accounts_add_plus" />
+    </FrameLayout>
+    <com.catool.android.views.CatoolTextView android:textSize="14.0sp" android:textColor="@color/def_manage_accounts_add_all" android:ellipsize="end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="16.0dip" android:text="@string/act_manage_accounts_add_account_title" android:maxLines="1" android:singleLine="true" app:text_view_font="@string/roboto_medium" />
+</LinearLayout>

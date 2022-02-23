@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ViewAnimator android:id="@id/preloadViewAnimator" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/swipeRefreshLayout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/recycler_view" />
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+    <me.zhanghai.android.materialprogressbar.MaterialProgressBar android:layout_gravity="center" android:id="@id/preloadProgressView" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:indeterminate="true" app:mpb_progressStyle="circular" style="@style/Widget.MaterialProgressBar.ProgressBar" />
+</ViewAnimator>

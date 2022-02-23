@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:id="@id/appBarLayout" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="wrap_content" app:titleEnabled="false">
+        <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:background="?colorPrimaryDark" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="wrap_content" app:elevation="4.0dip" app:popupTheme="@style/ToolbarMenuStyle" app:subtitleTextColor="#80ffffff" app:titleEnabled="true" app:titleTextColor="#ffffffff">
+            <com.catool.android.views.CatoolTextView android:textSize="16.0sp" android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="center|right" android:id="@id/points_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawablePadding="6.0dip" android:fontFamily="@font/roboto_medium" app:text_view_drawableRightCompat="@drawable/ic_crystal_white_24dp" />
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/swipe_refresh_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/content_frame_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <include layout="@layout/view_lemur" />
+        </FrameLayout>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <layer-list>
+            <item android:top="@dimen/smd_panel_button_border_bottom_top_pressed">
+                <shape>
+                    <solid android:color="@color/smd_panel_button_karma_plus_bg_back" />
+                    <corners android:radius="@dimen/smd_panel_button_corner_radius" />
+                </shape>
+            </item>
+            <item android:top="@dimen/smd_panel_button_border_bottom_top_pressed" android:bottom="@dimen/smd_panel_button_border_bottom_size_pressed">
+                <shape>
+                    <solid android:color="@color/smd_panel_button_karma_plus_bg_front" />
+                    <corners android:radius="@dimen/smd_panel_button_corner_radius" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item>
+        <layer-list>
+            <item android:top="@dimen/smd_panel_button_border_bottom_top_normal">
+                <shape>
+                    <solid android:color="@color/smd_panel_button_karma_plus_bg_back" />
+                    <corners android:radius="@dimen/smd_panel_button_corner_radius" />
+                </shape>
+            </item>
+            <item android:top="@dimen/smd_panel_button_border_bottom_top_normal" android:bottom="@dimen/smd_panel_button_border_bottom_size_normal">
+                <shape>
+                    <solid android:color="@color/smd_panel_button_karma_plus_bg_front" />
+                    <corners android:radius="@dimen/smd_panel_button_corner_radius" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</selector>

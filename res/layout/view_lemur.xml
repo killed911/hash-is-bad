@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/lemur_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/lemur_image_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/img_lemur_110x146dp" />
+    <com.catool.android.views.CatoolTextView android:textSize="14.0sp" android:textColor="#80ffffff" android:gravity="center" android:id="@id/title_text_view" android:layout_width="300.0dip" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" app:text_view_font="@string/roboto_regular" />
+    <com.catool.android.views.CatoolButton android:textSize="14.0sp" android:textColor="?colorAccent" android:gravity="center" android:id="@id/action_button" android:paddingLeft="16.0dip" android:paddingTop="0.0dip" android:paddingRight="16.0dip" android:paddingBottom="0.0dip" android:layout_width="wrap_content" android:layout_height="36.0dip" android:layout_marginTop="24.0dip" android:textAllCaps="true" app:button_font="@string/roboto_medium" />
+</LinearLayout>

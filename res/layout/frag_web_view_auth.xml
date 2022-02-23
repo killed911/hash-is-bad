@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="bottom" android:id="@id/root_relative_layout" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar android:id="@id/toolbar_view" android:background="?colorPrimaryDark" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" app:popupTheme="@style/ToolbarMenuStyle" />
+    <com.farapra.browserview.BrowserView android:id="@id/browser_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/complete_button" android:layout_below="@id/toolbar_view" />
+    <com.catool.android.views.CatoolButton android:textSize="18.0sp" android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="bottom" android:id="@id/complete_button" android:background="@color/accent" android:layout_width="fill_parent" android:layout_height="48.0dip" android:text="@string/frg_web_view_auth_button" android:layout_alignParentBottom="true" app:button_font="@string/roboto_regular" />
+</RelativeLayout>

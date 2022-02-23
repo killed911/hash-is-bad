@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@null" android:id="@id/reauth_all" android:visible="true" android:title="@string/act_manage_accounts_menu_item_reauth_all" app:showAsAction="never" />
+    <item android:icon="@null" android:id="@id/logout_all" android:visible="true" android:title="@string/act_manage_accounts_menu_item_logout_all" app:showAsAction="never" />
+</menu>
